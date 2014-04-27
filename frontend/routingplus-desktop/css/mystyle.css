@@ -1,0 +1,189 @@
+/*
+ *
+ * My css
+ * 
+ */
+
+#map {
+    /*    float: right;*/
+    width: 100% !important;
+    height: 600px;
+    cursor: default;
+}
+#input {
+    margin-left: auto;
+    margin-right: auto;
+}
+#info {
+    border: lightgray groove thin;
+    padding: 5px;
+}
+#info a {
+    padding-right: 5px;
+}
+#input,
+#instructions {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#fromInput,
+#toInput {
+    width: 70%;
+    float: none;
+}
+#fromResolveFound a,
+#toResolveFound a {
+    background-color: white;
+    padding-left: 4px;
+    padding-right: 3px;
+}
+#fromResolveFound,
+#toResolveFound {
+    overflow: hidden;
+    max-height: 24px;
+    font-size: 10px;
+    color: blue;
+    float: right;
+    cursor: pointer;
+    margin-top: -20px;
+    margin-right: 2px;
+}
+#fromResolveError,
+#toResolveError {
+    float: right;
+    font-size: 12px;
+    padding-bottom: 4px;
+}
+.boxSizingBorder {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.warn {
+    color: orange;
+}
+.error,
+#fromResolveError,
+#toResolveError {
+    color: red;
+}
+#moreattribution a {
+    text-decoration: none;
+    color: black;
+}
+#moreattribution {
+    padding-top: 20px;
+    color: #666666;
+}
+#fromDiv img,
+#toDiv img {
+    margin-top: 4px;
+    margin-left: 13%;
+    padding-right: 3px;
+    float: left;
+}
+.left {
+    float: left;
+}
+#routeDetails {
+    font-size: 12px;
+}
+.hidden {
+    display: none;
+}
+.no_link {
+    text-decoration: none;
+    color: black;
+}
+.no_link img {
+    margin-bottom: -10px;
+}
+.small_text {
+    font-size: small;
+}
+#options {
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.bold {
+    font-weight: bold;
+}
+#header_img {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#header_img img {
+    width: 200px;
+}
+#gpxExportButton {
+    margin-top: -3px;
+}
+#gpxExportButton img {
+    padding-left: 6px;
+}
+#searchButton {
+    float: right;
+    margin-bottom: 5px;
+}
+.clear {
+    clear: both;
+}
+#hosting {
+    padding-top: 10px;
+    color: gray;
+}
+#hosting a {
+    color: gray;
+}
+.instruction {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+tr.instruction td {
+    border-bottom: beige groove thin;
+}
+#instructions {
+    border-collapse: collapse;
+    padding-top: 10px;
+    width: 100%;
+    font-size: smaller;
+}
+.instr_distance {
+    float: right;
+    color: gray;
+    text-align: right;
+}
+.btn {
+    background-color: #fff !important;
+    border-radius: 2px;
+    border: 1px solid #fff;
+    color: #000;
+    font-size: 18px;
+    height: 50px;
+    padding: 5px 10px;
+    text-decoration: none;
+    width: 100%;
+}
+.btn-search {
+    -webkit-appearance: none;
+    border-radius: 0;
+    padding: 0 .25em;
+    width: 100%;
+    overflow: visible;
+}
+.text-box,
+.text-box:hover {
+    background-color: #fcfcfc;
+    border-radius: 10px;
+    border: 3px solid #fff;
+    color: #bcbcbc;
+    font-size: 90%;
+    height: 50px;
+    margin: 3px;
+    padding: 6px 10px 6px 15px;
+    width: 100%;
+}
+.informations {
+    width: 100%;
+}
