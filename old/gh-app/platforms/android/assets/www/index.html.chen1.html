@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link type="image/png" rel="icon" href="/favicon.ico"/>
+        <title>Driving Directions - GraphHopper Maps</title>
+
+        <!-- imported leaflet css style -->
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+        <!-- Custom sidebar leaflet -->
+        <link rel="stylesheet" href="css/L.Control.Sidebar.css" />
+        <!-- Custom style -->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <!-- Custom input style -->
+        <link rel="stylesheet" type="text/css" href="css/input.css" />
+        <!-- Mapui css -->
+        <link rel="stylesheet" type="text/css" href="css/mapui.css" />
+        <!-- The given style -->
+        <link rel="stylesheet" type="text/css" href="css/mystyle.css" />
+        <!-- Slider style -->
+        <link rel="stylesheet" type="text/css" href="css/slider.css" />
+
+        <!-- Settings css -->
+        <link rel="stylesheet" href="css/settings.css" />
+
+<script src="//code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+        <!-- MAPBOX files -->
+        <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.js'></script>
+        <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.css' rel='stylesheet' />
+
+        <!-- Font aweseome -->
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+        <!-- Jquery, autocomplete, history -->
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery.history.js"></script>
+<<<<<<< .mine
+
+=======
+>>>>>>> .r51
+        <!-- <script type="text/javascript" src="js/jquery.autocomplete.js"></script> -->
+
+
+
+        <!-- Graph hopper request -->
+        <script type="text/javascript" src="js/ghrequest.js?v=3"></script>
+        <!-- The other js functions -->
+        <script type="text/javascript" src="js/other.js"></script>
+        <!-- Note this must be below ghrequest -->
+        <script type="text/javascript" src="js/main.js?v=14"></script>
+<<<<<<< .mine
+        <script type="text/javascript" src="phonegap.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+=======
+            <!-- Leaflet and sidebar js -->
+        <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+        <script src="js/L.Control.Sidebar.js"></script>
+        <!-- Tab js -->
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+
+>>>>>>> .r51
+    </head>
+    <body>
+
+    <div id="sidebar">
+
+
+
+        <div id="input">
+            <div id="tabs"> <!-- Juery test tab -->
+
+                <!-- Sidebar toggle -->
+                <div class="toggle-topleft input-toggle">
+                <ul>
+<<<<<<< .mine
+                <li><a href='#' class='active' id='toggle-sidebar-input'>
+                  <i class="fa fa-bars fa-3"></i> Map</a>
+                  <a href="preferences.html"><img src="img/car.png" alt="Preference" /></a></li>
+=======
+                <li><a href='#' class="toggle-btn" id='toggle-sidebar-input'>
+                  <i class="fa fa-bars"></i> Map</a></li>
+>>>>>>> .r51
+                </ul>
+
+                </div>
+<<<<<<< .mine
+
+                <!-- Buttons -->
+                <div id="options">
+                    <span id="vehicles">
+                    </span>
+                </div>
+=======
+>>>>>>> .r51
+
+<<<<<<< .mine
+                <!-- Logo -->
+                <div id="header_img">
+                    <a class="no_link" href="http://graphhopper.com">
+                    <img alt="GraphHopper" src="http://graphhopper.com/img/header.png"/>
+                    </a>
+=======
+                <!-- Settings toggle -->
+                <div class="toggle-topright settings-toggle">
+                <ul>
+                <li><a href='#' class="toggle-btn" id='settings-js-btn'>
+                  <i class="fa fa-cog"></i> Settings</a></li>
+                </ul>
+>>>>>>> .r51
+                </div>
+                <div id="route">
+                    <!-- Buttons -->
+                    <div id="options">
+                        <span id="vehicles">
+                        </span>
+                    </div>
+
+                    <!-- Logo -->
+                    <div id="header_img">
+                        <a class="no_link" href="http://graphhopper.com">
+                        <img alt="GraphHopper" src="http://graphhopper.com/img/header.png"/>                    
+                        </a>
+                    </div>
+                    <div class="toggle_btn">
+                    </div>
+
+<<<<<<< .mine
+
+                <form id="locationform">
+                    <!-- From and To text boxes -->
+                    <div id="locationpoints">
+
+                        <div id="fromDiv">
+                            <img id="fromIndicator" class="hidden" src="img/indicator.gif"/>
+                            <img id="fromFlag" src="img/marker-small-green.png"/>
+                            <input id="fromInput" type="text" placeholder="From"/>
+=======
+
+                
+                    <form id="locationform">
+                        <!-- From and To text boxes -->
+                        <div id="locationpoints">
+                            
+                            <div id="fromDiv">
+                                <img id="fromIndicator" class="hidden" src="img/indicator.gif"/>
+                                <img id="fromFlag" src="img/marker-small-green.png"/>
+                                <input id="fromInput" type="text" placeholder="From"/>
+                                <div class="clear"> </div>
+                                <div id="fromResolveFound"></div>
+                                <div id="fromResolveError"></div>
+                            </div>
+                            
+>>>>>>> .r51
+                            <div class="clear"> </div>
+                            
+                            <div id="toDiv">
+                                <img id="toIndicator" class="hidden" src="img/indicator.gif"/>
+                                <img id="toFlag" src="img/marker-small-red.png"/>                    
+                                <input id="toInput" type="text" placeholder="To"/>
+                                <div class="clear"> </div>
+                                <div id="toResolveFound"></div>
+                                <div id="toResolveError"></div>
+                            </div>
+                        </div>
+
+                        <div class="clear"> </div>
+<<<<<<< .mine
+
+                        <div id="toDiv">
+                            <img id="toIndicator" class="hidden" src="img/indicator.gif"/>
+                            <img id="toFlag" src="img/marker-small-red.png"/>
+                            <input id="toInput" type="text" placeholder="To"/>
+                            <div class="clear"> </div>
+                            <div id="toResolveFound"></div>
+                            <div id="toResolveError"></div>
+                        </div>
+=======
+                        <!-- Link map icon -->
+                        <div id="exportLink" title="Static Link" class="left"><a href="/maps"><img src='img/link.png'></a></div>
+                        <!-- Search button -->
+                        <input id="searchButton" type="submit" value="Search">
+                    </form>      
+                
+                    <!-- gpx map -->
+                    <div id="gpxExportButton" title="GPX Download">
+                        <a href=""><img alt="gpx" src='img/gpx.png'></a>
+>>>>>>> .r51
+                    </div>
+                
+
+<<<<<<< .mine
+                    <div class="clear"> </div>
+                    <!-- Link map icon -->
+                    <div id="exportLink" title="Static Link" class="left"><a href="/maps"><img src='img/link.png'></a></div>
+                    <!-- Search button -->
+                    <input id="searchButton" type="submit" value="Search">
+                </form>
+
+=======
+                <div class="clear"> </div>
+
+                <div id="info" class="small_text"></div>
+                <div id="error" class="error"></div>
+                </div><!-- route -->
+            
+>>>>>>> .r51
+<<<<<<< .mine
+                <!-- gpx map -->
+                <div id="gpxExportButton" title="GPX Download">
+                    <a href=""><img alt="gpx" src='img/gpx.png'></a>
+                </div>
+=======
+        </div> <!-- ./#settings -->
+>>>>>>> .r51
+
+<<<<<<< .mine
+
+            <div class="clear"> </div>
+=======
+    <div id="settings">
+>>>>>>> .r51
+
+    <!-- Settings -->
+    <div class="tab-pane" id="settings">
+    <h1> Route Conditions </h1>
+    <div class="slider-bar">
+        Time <input type="range" min="1" max="100" value="20" id="range"/>
+        </div>
+        <br>
+        <div class="slider-bar">
+        Distance <input type="range" min="1" max="100" value="20" id="range1"/>
+        </div>
+        <br>
+        <div class="slider-bar">
+        Petrol <input type="range" min="1" max="100" value="20" id="range2"/>
+        <div class="slider-bar">
+        <br>
+        Other <input type="range" min="1" max="100" value="20" id="range3"/>
+        </div>
+    </div>
+    <div class="important-text">Importance</div>
+    </div>
+    </div><!-- ./settings-->
+    </div> <!-- ./tabs -->
+
+    </div> <!-- ./input -->
+
+    </div> <!-- ./sidebar -->
+    <!-- Map -->
+    <div id="map">    
+    </div>
+    <!-- Elements on map -->
+    <div id='map-ui' class="toggle-topleft map-toggle">
+        <ul>
+          <li><a href='#' class='active' id='toggle-sidebar'>
+          <i class="fa fa-bars fa-3"></i> Search</a></li>
+        </ul>
+    </div>
+    <!-- Slider JS -->
+    <script type="text/javascript" src="js/slider.js"></script>
+
+    </body>
+</html>

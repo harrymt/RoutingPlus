@@ -1,0 +1,542 @@
+
+#searchButton 
+{
+  float: right;
+  margin-bottom: 5px;
+  padding-left: 21px;
+  border-top: black 2px;
+}
+
+.btn 
+{
+  background-color: #fff !important;
+  border-radius: 2px;
+  border: 1px solid #fff;
+  color: #000;
+  font-size: 18px;
+  height: 50px;
+  padding: 5px 10px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.btn-search
+{
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+.settings-container i
+{
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+
+}
+.settings-container 
+{
+margin-right: 11px;
+}
+
+.gpx-container
+{
+  float: left;
+  padding-bottom: 20px;
+}
+
+.btn-toggle
+{
+  font-size: 30px;
+}
+
+#routeInfo
+{
+  padding-top: 20px; 
+  font-size: 15px;
+}
+
+#input #vehicles .vehicle-btn 
+{
+  background-color: #fff !important;
+  border-radius: 10%;
+  border: 1px solid #fff !important;
+  box-shadow: 0 0 1px 1px #fff;
+  color: #000;
+  font-size: 20px;
+  padding: 5px 10px;
+  text-decoration: none;
+} 
+
+#route
+{
+  height: 100px;
+  width: 100%;
+}
+
+#locationpoints
+{
+  margin-left: 40px;
+}
+
+.text-box, 
+.text-box:hover
+{ 
+  background-color: #fcfcfc;
+  border-radius: 10px;
+  border: 3px solid #fff;
+  color: #bcbcbc;
+  font-size: 90%;
+  height: 50px;
+  margin: 3px;
+  padding: 6px 10px 6px 15px;
+  width: 100%;
+}
+
+.error,
+#fromResolveError,
+#toResolveError 
+{
+  color: #fff;
+}
+
+#fromDiv img,
+#toDiv img 
+{
+  float: left;
+  margin-top: 4px;
+  padding-right: 3px;
+}
+
+#input,
+#instructions 
+{
+  width: 100%;
+}
+
+#fromInput,
+#toInput 
+{
+  float: right;
+}
+
+#fromResolveFound a,
+#toResolveFound a 
+{
+  background-color: #fff;
+  padding-left: 4px;
+  padding-right: 3px;
+}
+
+#fromResolveFound,
+#toResolveFound 
+{
+  color: #00f;
+  cursor: pointer;
+  float: right;
+  font-size: 10px;
+  margin-right: 2px;
+  margin-top: -20px;
+  max-height: 24px;
+  overflow: hidden;
+}
+
+#fromResolveError,
+#toResolveError 
+{
+  float: right;
+  font-size: 12px;
+  padding-bottom: 4px;
+}
+
+
+#fromDiv img,
+#toDiv img 
+{
+  float: left;
+  margin-top: 4px;
+  padding-right: 3px;
+}
+
+.gpx-link 
+{
+  float: left;
+}
+
+.hidden 
+{
+  display: none;
+}
+
+.no_link 
+{
+  text-decoration: none;
+  color: #000;
+}
+
+.no_link img 
+{
+  margin-bottom: -10px;
+}
+
+.small_text 
+{
+  font-size: small;
+}
+
+#options 
+{
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.bold 
+{
+  font-weight: bold;
+}
+
+#header_img 
+{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#header_img img 
+{
+  width: 200px;
+}
+
+#gpxExportButton 
+{
+  margin-top: -3px;
+}
+
+#gpxExportButton img 
+{
+  padding-left: 6px;
+}
+
+.clear 
+{
+  clear: both;
+}
+
+#hosting 
+{
+  padding-top: 10px;
+  color: #808080;
+}
+
+#hosting a 
+{
+  color: #808080;
+}
+
+.instruction 
+{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+tr.instruction td 
+{
+  border-bottom: #f5f5dc groove thin;
+}
+
+#instructions {
+  border-collapse: collapse;
+  padding-top: 10px;
+  width: 100%;
+  font-size: smaller;
+}
+
+.instr_distance {
+  float: right;
+  color: #808080;
+  text-align: right;
+}
+
+#info {
+  display: none;
+  // max-height: 50%;
+  // overflow: auto;
+  padding: 5px;
+  margin-top: 20px;
+
+  // border: white groove thin;
+  // background-color: red;
+
+  font-family: 'Cabin', sans-serif;
+
+}
+
+#info small
+{
+  padding-top: 20px; 
+  font-size: 15px;
+  color: black;
+}
+
+#info a 
+{
+  padding-right: 5px;
+}
+
+#info button
+{
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  margin: 10px;
+  margin-top: -10px;
+}
+
+#info table
+{
+  margin-bottom: 100px;
+  // color: #fff;
+  border-color: #808080;
+}
+
+#input,
+#instructions {
+  width: 100%;
+}
+
+
+#fromResolveFound a,
+#toResolveFound a {
+  background-color: #fff;
+  padding-left: 4px;
+  padding-right: 3px;
+}
+
+#fromResolveFound,
+#toResolveFound 
+{
+  overflow: hidden;
+  max-height: 24px;
+  font-size: 10px;
+  color: #00f;
+  float: right;
+  cursor: pointer;
+  margin-top: -20px;
+  margin-right: 2px;
+}
+
+#fromResolveError,
+#toResolveError 
+{
+  float: right;
+  font-size: 12px;
+  padding-bottom: 4px;
+}
+
+
+.error,
+#fromResolveError,
+#toResolveError 
+{
+  color: #f00;
+}
+
+#moreattribution a {
+  text-decoration: none;
+  color: #000;
+}
+
+#moreattribution {
+  padding-top: 20px;
+  color: #666;
+}
+
+#fromDiv img,
+#toDiv img 
+{
+  margin-top: 4px;
+  padding-right: 3px;
+  float: left;
+}
+
+.left 
+{
+  float: left;
+}
+
+#routeDetails 
+{
+  padding: 5px;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.hidden 
+{
+  display: none;
+}
+
+.no_link 
+{
+  text-decoration: none;
+  color: #000;
+}
+
+.no_link img 
+{
+  margin-bottom: -10px;
+}
+
+.small_text 
+{
+  font-size: small;
+}
+
+#options 
+{
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.bold 
+{
+  font-weight: bold;
+}
+
+#header_img 
+{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#header_img img 
+{
+  width: 200px;
+}
+
+#gpxExportButton 
+{
+  margin-top: -3px;
+}
+
+#gpxExportButton img 
+{
+  padding-left: 6px;
+}
+
+.clear 
+{
+  clear: both;
+}
+
+#hosting 
+{
+  padding-top: 10px;
+  color: #808080;
+}
+
+#hosting a 
+{
+  color: #808080;
+}
+
+.instruction {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+tr.instruction td 
+{
+  border-bottom: #f5f5dc groove thin;
+}
+
+#instructions 
+{
+  border-collapse: collapse;
+  padding-top: 10px;
+  width: 100%;
+  font-size: smaller;
+  max-height: 0;
+}
+
+#instructions th,
+#instructions td 
+{
+  padding: 3px;
+}
+
+.instr_distance_td 
+{
+  min-width: 40px;
+}
+
+.instr_distance 
+{
+  color: #808080;
+  float: right;
+  text-align: right;
+}
+
+.instr_pic 
+{
+  max-height: 24px;
+  max-width: 16px;
+}
+
+.complete-1,
+.complete-2 
+{
+  background: #fff;
+  border: 1px solid #999;
+  overflow: auto;
+}
+
+.complete-1 strong,
+.complete-2 strong 
+{
+  color: #04b431;
+  font-weight: normal;
+}
+
+.light 
+{
+  color: #9f9f9f;
+  font-size: smaller;
+  font-weight: lighter;
+}
+
+.wikilink 
+{
+  float: right;
+}
+
+.wikilink img 
+{
+  max-width: 16px;
+}
+
+.moreseg 
+{
+  font-size: 9px;
+}
+
+@media (max-width: 500px) 
+{
+  #vehicles {
+    padding-left: 30px;
+  }
+
+  .vehicle-btn {
+    padding: 0 5px !important;
+  }
+}
+@media (min-width: 767px) 
+{
+  #input {
+    padding-left: 0;
+  }
+}
+@media (max-width: 400px) 
+{
+  #vehicles {
+    padding-left: 0;
+  }
+}

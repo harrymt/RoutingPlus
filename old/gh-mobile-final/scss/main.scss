@@ -1,0 +1,230 @@
+
+
+
+// =========== Global Styles ============ //
+
+* 
+{
+    // box-sizing: border-box;
+    // 
+    //
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html,
+body {
+  background-color: #c8d3cc;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+
+
+// ================== DROP DOWN ================== //
+
+
+// Logo
+
+.logo-nav
+{
+  background: #26bf66;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.brand 
+{
+  color: #fff;
+  font-family: 'Cabin', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  height: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center; 
+  text-shadow: 0 1px #22ac5c;
+  width: 200px;
+}
+
+.logo-text
+{
+  font-weight: bold !important;
+  text-align: center;
+}
+
+.logo {
+  color: #fff; //seagreen
+  font-size: 40px;
+  margin-left: 160px;
+  margin-top: 20px;
+  position: absolute;
+  top: 0;
+ }
+
+#tabs
+{
+    padding-left: 10%;
+  padding-right: 10%;
+}
+.drop-down 
+{
+  background: #c8d3cc;
+  height: auto;
+  position: absolute;
+  // text-shadow: 1px 1px 1px #959da8;
+  top: -200%;
+  -webkit-transition: top .2s ease-in-out;
+  transition: top .2s ease-in-out;
+  width: 100%;
+  z-index: 2;
+  padding-top: 120px;
+}
+
+// hide directions
+.hide
+{
+  display: none !important;
+}
+// Dropdown effect
+.down 
+{
+  top: 0;
+}
+
+.menu 
+{
+  background: #fff;
+  border: 3px solid #fff;
+  box-shadow: 0 0 10px 2px #fff;
+  -moz-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+  color: #000;
+  height: 50px;
+  left: 25px;
+  position: fixed;
+  text-align: center;
+  top: 3%;
+  width: 50px;
+  z-index: 999;
+}
+
+.menu a 
+{
+  color: #000;
+  display: block;
+  font-size: 30pt;
+  font-weight: bold;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.menu .close 
+{
+  display: none;
+}
+
+.trigger 
+{
+  -webkit-animation: jiggle .2s;
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+  -webkit-animation-iteration-count: 3;
+  animation-iteration-count: 3;
+}
+
+.round 
+{
+  -webkit-animation: jiggle .2s;
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+  -webkit-animation-iteration-count: 3;
+  animation-iteration-count: 3;
+}
+
+@-webkit-keyframes jiggle 
+{
+
+  0%
+{ 
+    -webkit-transform: rotate(-3deg);
+  }
+
+  50%
+{
+    -webkit-transform: rotate(3deg);
+  }
+
+}
+
+.white 
+{
+  border-color: #fff;
+  color: #fff !important;
+}
+
+
+// ================== MAP ================== //
+
+// ================== //
+//  Map UI  // 
+// ================== //
+@import 'map.scss';
+
+// ================== TABS ================== //
+
+// ================== //
+//  Search tab  // 
+// ================== //
+@import 'search-tab.scss';
+
+// ================== //
+//  Settings tab  // 
+// ================== //
+@import 'settings-tab.scss';
+
+
+// ================== OTHER ================== //
+
+//
+//
+// Main stylesheet for Switchery.
+// http://abpetkov.github.io/switchery/
+//
+//
+
+.switchery 
+{
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid #dfdfdf;
+  cursor: pointer;
+  display: inline-block;
+  height: 30px;
+  position: relative;
+  vertical-align: middle;
+  width: 50px;
+}
+
+.switchery > small 
+{
+  background: #fff;
+  border-radius: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+  height: 30px;
+  position: absolute;
+  top: 0;
+  width: 30px;
+}

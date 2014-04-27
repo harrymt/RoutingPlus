@@ -1,0 +1,51 @@
+$topleft-btn-location : 30px;
+$topleft-btn-location-mobile : 10px;
+$topright-btn-location : 20px;
+$topright-btn-location-mobile : 10px;
+@import 'std-btn';
+
+.toggle-topleft {
+  position:absolute;
+  top:$topleft-btn-location;
+  left:$topleft-btn-location;
+  z-index:100;
+  @include std-btn;
+}
+
+.toggle-topright {
+  position:absolute;
+  top:$topright-btn-location;
+  right:$topright-btn-location;
+  z-index:80;
+  @include std-btn;
+}
+
+// Maybe redundant
+.toggle-btn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.input-toggle {
+   top:$topleft-btn-location - 10px;
+}
+
+// Not needed but to make sure is in the same place
+@media (max-width: 767px) {
+  .input-toggle {
+    top:$topleft-btn-location;
+  }
+}
+// iphone
+@media (max-width: 400px) {
+  .toggle-topleft {
+    top:$topleft-btn-location-mobile !important;
+    left: $topleft-btn-location-mobile !important ;
+  }
+
+    .input-toggle {
+      top:$topleft-btn-location-mobile;
+      left:$topleft-btn-location-mobile;
+    }
+
+}

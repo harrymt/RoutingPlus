@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>preference</title>
+<script type="text/javascript">
+function $(cID) {
+    return document.getElementById(cID);
+}
+function SeekTp(oObj,nLorT) {
+    if (nLorT==0) {
+        var nPosition=oObj.offsetLeft;
+    }
+    else {
+        var nPosition=oObj.offsetTop;
+    }
+    if(oObj.offsetParent!=null){
+        nPosition+=SeekTp(oObj.offsetParent,nLorT);
+    }
+    return nPosition;
+}
+function StopMove() {
+    document.onmousemove=null;
+}
+function RecoMove(oObj,e) {
+    ev=e?e:window.event;
+    var nOldX=ev.clientX;
+    var nOldP=oObj.offsetLeft;
+    var nSPpx=nStep/(nMaxBound-nMinBound)*$('lineCont').offsetWidth;
+    nSPpx=nSPpx<6?(5):nSPpx;
+    document.onmouseup=StopMove;
+    document.onmousemove=function(e) {
+        ev=e?e:window.event;
+        var nTemX=ev.clientX-nOldX;
+        var cOpc=nTemX<0?'-':'+';
+        nMove=Math.round(Math.abs(nTemX)/nSPpx)*nSPpx;
+        nMove=nTemX<0?nMove*-1:nMove*1;
+        $('minBound').value=nMove;
+        if ((oObj.offsetLeft>=SeekTp($('lineCont'),0)-5)&&(oObj.offsetLeft<=SeekTp($('lineCont'),0)+$('lineCont').offsetWidth-5)) {
+            var oTemE=oObj.id=='minArw'?$('maxArw'):$('minArw');
+            var lEva;
+            if (oTemE==$('maxArw')) {
+                lEva=eval(oObj.offsetLeft+5+nSPpx<oTemE.offsetLeft);
+                if (nMove+SeekTp($('lineCont'),0)<oObj.offsetLeft) {
+                    lEva=true;
+                }
+            }
+            else {
+                lEva=eval(oObj.offsetLeft>=oTemE.offsetLeft+5+nSPpx);
+                if (oObj.offsetLeft+5<SeekTp($('lineCont'),0)+$('lineCont').offsetWidth+nMove) {
+                    lEva=true;
+                }
+            }
+            if (lEva) {
+                oObj.style.left=nOldP+nMove+'px';
+            }
+        }
+        if (oObj.offsetLeft<SeekTp($('lineCont'),0)-5) {
+            oObj.style.left=SeekTp($('lineCont'),0)-5+'px';
+        }
+        if (oObj.offsetLeft>SeekTp($('lineCont'),0)+$('lineCont').offsetWidth-5) {
+            oObj.style.left=SeekTp($('lineCont'),0)+$('lineCont').offsetWidth-5+'px';
+        }
+        $('SbLine').style.left=$('minArw').offsetLeft+5+'px';
+        $('SbLine').style.width=$('maxArw').offsetLeft-$('minArw').offsetLeft+'px';
+        oMinResult.value=parseInt(($('SbLine').offsetLeft-SeekTp($('lineCont'),0))/$('lineCont').offsetWidth*(nMaxBound-nMinBound)+nMinBound);
+        oMaxResult.value=parseInt(($('SbLine').offsetLeft-SeekTp($('lineCont'),0)+$('SbLine').offsetWidth)/$('lineCont').offsetWidth*(nMaxBound-nMinBound)+nMinBound);
+        $('LiveValue').innerHTML=oMinResult.value+' - '+oMaxResult.value;
+    }
+}
+var oMinResult,oMaxResult
+function CreateSlideBar(cTargetObj,cMinResult,cMaxResult) {
+    var oTargetObj=$(cTargetObj);
+    oMinResult=$(cMinResult);
+    oMaxResult=$(cMaxResult);
+    var oSbContainer=document.createElement('div');  
+    oSbContainer.style.cssText='overflow:auto;background: url(/img/20110117/calib.gif) no-repeat 10px 30px;width:220px;height:100%;';
+    oTargetObj.appendChild(oSbContainer);
+    oSbContainer.innerHTML='<div id="lineCont"><div id="SbLine"></div></div>    <div id="minArw" onmousedown="RecoMove(this,event);"></div>    <div id="maxArw" onmousedown="RecoMove(this,event);"></div>    <div style="float:left;">'+nMinBound+'</div><div style="float: right">'+nMaxBound+'</div><div id="LiveValue" style="text-align:center;font-weight:bold;"></div>';
+    $('lineCont').style.cssText='margin:10px 10px 20px;border:#666 solid 1px;width:198px;height:5px;';
+    $('SbLine').style.cssText='position:absolute;background: url(/img/20110117/line.gif) repeat-x;height:5px;';
+    $('minArw').style.cssText='position:absolute;background: url(/img/20110117/arrows.gif) no-repeat;cursor:pointer;width:10px;height:20px;';
+    $('maxArw').style.cssText='position:absolute;background: url(/img/20110117/arrows.gif) no-repeat;cursor:pointer;width:10px;height:20px;';
+    $('minArw').style.left=SeekTp($('lineCont'),0)-5+'px';
+    $('minArw').style.top=SeekTp($('lineCont'),1)-5+'px';
+    $('maxArw').style.left=SeekTp($('lineCont'),0)+$('lineCont').offsetWidth-5+'px';
+    $('maxArw').style.top=SeekTp($('lineCont'),1)-5+'px';
+    $('SbLine').style.width=$('lineCont').offsetWidth+'px';
+    oMinResult.value=nMinBound;
+    oMaxResult.value=nMaxBound;
+}
+</SCRIPT>
+</head>
+<body>
+<div id="egDiv" style="margin:auto;width: 500px;">
+    <button type="button" onclick="alert('您选择的范围是：'+$('minBound').value+'到'+$('maxBound').value+'！');">查看结果</button>
+    <input type="hidden" id="minBound" value="0" size="6">
+    <input type="hidden" id="maxBound" value="100" size="6">
+</div>
+<script type="text/javascript">
+var nMinBound=0;//开始位置
+var nMaxBound=100;//结束位置
+var nStep=5;//步长
+CreateSlideBar('egDiv','minBound','maxBound');
+//添加的父对象,赋值的对象(最小,最大)
+</SCRIPT>
+</body>
+</html>

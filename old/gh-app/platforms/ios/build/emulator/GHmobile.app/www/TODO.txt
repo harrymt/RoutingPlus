@@ -1,0 +1,8 @@
+TODO
+Font-end grp
+
+5. Settings screen, desktop.
+6. More settings options
+7. Re-align button
+
+

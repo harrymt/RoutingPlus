@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link type="image/png" rel="icon" href="/favicon.ico" />
+    <title>Driving Directions - GraphHopper Maps</title>
+
+    <!-- imported leaflet css style -->
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+    <!-- Custom sidebar leaflet -->
+    <link rel="stylesheet" href="css/L.Control.Sidebar.css" />
+    <!-- Custom style -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- Custom input style -->
+    <link rel="stylesheet" type="text/css" href="css/input.css" />
+    <!-- Mapui css -->
+    <link rel="stylesheet" type="text/css" href="css/mapui.css" />
+    <!-- The given style -->
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css" />
+    <!-- Slider style -->
+    <link rel="stylesheet" type="text/css" href="css/slider.css" />
+    <!-- Checkbox style and JS -->
+    <link rel="stylesheet" type="text/css" href="css/switchery.css">
+    <script src="js/switchery.js"></script>
+
+    <!-- Settings css -->
+    <link rel="stylesheet" href="css/settings.css" />
+
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+    <!-- MAPBOX files -->
+    <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.css' rel='stylesheet' />
+
+    <!-- Font aweseome -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Jquery, autocomplete, history -->
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.history.js"></script>
+    <!-- <script type="text/javascript" src="js/jquery.autocomplete.js"></script>
+-->
+    <!-- Graph hopper request -->
+    <script type="text/javascript" src="js/ghrequest.js?v=3"></script>
+    <!-- The other js functions -->
+    <script type="text/javascript" src="js/other.js"></script>
+    <!-- Note this must be below ghrequest -->
+    <script type="text/javascript" src="js/main.js?v=14"></script>
+    <!-- Leaflet and sidebar js -->
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+    <script src="js/L.Control.Sidebar.js"></script>
+    <!-- Tab js -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+</head>
+
+<body>
+
+    <div id="sidebar">
+
+        <div id="input">
+            <div id="tabs">
+                <!-- Juery test tab -->
+
+                <!-- Sidebar toggle -->
+                <div class="toggle-topleft input-toggle">
+                    <ul>
+                        <li>
+                            <a href='#' class="toggle-btn" id='toggle-sidebar-input'>
+                                <i class="fa fa-bars">
+                                </i>
+                                Map
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Settings toggle -->
+                <div class="toggle-topright settings-toggle">
+                    <ul>
+                        <li>
+                            <a href='#' class="toggle-btn" id='settings-js-btn'>
+                                <i class="fa fa-cog">
+                                </i>
+                                Settings
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="route">
+                    <!-- Buttons -->
+                    <div id="options">
+                        <span id="vehicles"></span>
+                    </div>
+
+                    <!-- Logo -->
+                    <div id="header_img">
+
+                    </div>
+                    <div class="toggle_btn"></div>
+
+                    <form id="locationform">
+                        <!-- From and To text boxes -->
+                        <div id="locationpoints">
+
+                            <div id="fromDiv">
+                                <img id="fromIndicator" class="hidden" src="img/indicator.gif" />
+                                <img id="fromFlag" src="img/marker-small-green.png" />
+                                <input id="fromInput" type="text" placeholder="From" />
+                                <div class="clear"></div>
+                                <div id="fromResolveFound"></div>
+                                <div id="fromResolveError"></div>
+                            </div>
+
+                            <div class="clear"></div>
+
+                            <div id="toDiv">
+                                <img id="toIndicator" class="hidden" src="img/indicator.gif" />
+                                <img id="toFlag" src="img/marker-small-red.png" />
+                                <input id="toInput" type="text" placeholder="To" />
+                                <div class="clear"></div>
+                                <div id="toResolveFound"></div>
+                                <div id="toResolveError"></div>
+                            </div>
+                        </div>
+
+                        <div class="clear"></div>
+                        <!-- Link map icon -->
+                        <div id="exportLink" title="Static Link" class="left">
+                            <a href="/maps">
+                                <img src='img/link.png'>
+                            </a>
+                        </div>
+                        <!-- Search button -->
+                        <input id="searchButton" type="submit" value="Search">
+                    </form>
+
+                    <!-- gpx map -->
+                    <div id="gpxExportButton" title="GPX Download">
+                        <a href="">
+                            <img alt="gpx" src='img/gpx.png'>
+                        </a>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div id="info" class="small_text"></div>
+                    <div id="error" class="error"></div>
+                </div>
+                <!-- route -->
+            </div>
+            <!-- ./#settings -->
+
+            <div id="settings">
+
+                <!-- Settings -->
+                <div class="tab-pane" id="settings">
+                    <h1>Route Conditions</h1>
+                    <div class="slider-bar">
+                        <div class="slider-heading">Traffic Lights</div>
+                        <br>
+                        <input type="range" min="1" max="5" value="1" id="trafficSignals" />
+                    </div>
+                    <br>
+                    <div class="slider-bar">
+                        <div class="slider-heading">Right Turns</div>
+                        <br>
+                        <input type="range" min="1" max="5" value="1" id="rightTurns" />
+                    </div>
+                    <br>
+                    <div class="slider-bar">
+                        <div class="slider-heading">Motorways</div>
+                        <br>
+                        <input type="range" min="1" max="5" value="1" id="motorway" />
+                    </div>
+                    <br>
+                    <div class="slider-bar">
+                        <div class="slider-heading">Main Roads</div>
+                        <br>
+                        <input type="range" min="1" max="5" value="1" id="mainRoads" />
+                    </div>
+                    <br>
+                    <div class="slider-bar">
+                        <div class="slider-heading">Residential</div>
+                        <br>
+                        <input type="range" min="1" max="5" value="1" id="residential" />
+                        <br>
+                    </div>
+
+                    <div class="container">
+                        <form class="settings-toggle-area">
+
+                            <p>
+                                <span for="setting1">Shortest</span>
+                                <input type="checkbox" class="js-switch" name="speed_toggle" checked />
+                                <span for="setting1">Fastest</span>
+                            </p>
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            <!-- ./settings-->
+        </div>
+        <!-- ./input -->
+    </div>
+    <!-- ./sidebar -->
+    <!-- Map -->
+    <div id="map"></div>
+    <!-- Elements on map -->
+    <div id='map-ui' class="toggle-topleft map-toggle">
+        <ul>
+            <li>
+                <a href='#' class='active' id='toggle-sidebar'>
+                    <i class="fa fa-bars fa-3"></i>
+                    Search
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Slider JS -->
+    <script type="text/javascript" src="js/slider.js"></script>
+    <!-- Checkbox JS -->
+    <script src="js/switchery.js"></script>
+    <script type="text/javascript">
+        var elem = document.querySelector('.js-switch');
+        var init = new Switchery(elem);
+    </script>
+</body>
+
+</html>

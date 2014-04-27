@@ -1,0 +1,26 @@
+Classes we SHOULD use
+
+Location:
+
+graphhopper -> core -> src -> Java -> com -> graphhopper
+
+    1. reader
+    	-> OSMElement.java (maybe)
+    	-> OSMReader.java
+    		= Function processWay(); Line 340ish
+    		= getNodeMap();
+        -> OSMTurnRelation.java (No right turns!)
+    2. routing
+        -> ch
+            -> PrepareContractionHierarchies.java
+        -> util
+            -> Abstract/Bike/MountainBike/RacingBike/Car/FootFlagEncoder.java
+                = analyzeNodeTags() (Traffic Lights) Line 187
+    3. -> GHRequest.java
+    4. -> GHResponse.java
+    5. -> GraphHopper.java
+    6. -> GraphHopperAPI.java
+
+Research:
+1. Pillar and Tower Nodes 
+2. http://en.wikipedia.org/wiki/Xiaolin_Wu%27s_line_algorithm

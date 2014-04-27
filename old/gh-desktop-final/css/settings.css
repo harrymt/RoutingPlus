@@ -1,0 +1,33 @@
+#settings {
+    list-style: 15px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px !important;
+}
+#settings .slider-bar {
+    padding-top: 10px;
+}
+#settings h1 {
+    margin-top: -40px;
+    font-size: 20px !important;
+    text-align: center;
+}
+#settings .important-text {
+    /* Safari */
+    -webkit-transform: rotate(90deg);
+    /* Firefox */
+    -moz-transform: rotate(90deg);
+    /* IE */
+    -ms-transform: rotate(90deg);
+    /* Opera */
+    -o-transform: rotate(90deg);
+    margin-left: 270px;
+    margin-top: -170px;
+}
+#settings input {
+    float: right;
+}
+.settings-toggle-area {
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+#settings {
+  padding-top: 20px;
+  text-align: left;
+}
+#settings .slider-bar {
+  padding-top: 10px;
+}
+#settings h1 {
+  font-size: 20px !important;
+  text-align: center;
+}
+#settings .important-text {
+  /* Safari */
+  -webkit-transform: rotate(90deg);
+  /* Firefox */
+  -moz-transform: rotate(90deg);
+  /* IE */
+  -ms-transform: rotate(90deg);
+  /* Opera */
+  -o-transform: rotate(90deg);
+  margin-left: 270px;
+  margin-top: -170px;
+}
+#settings input {
+  float: right;
+}

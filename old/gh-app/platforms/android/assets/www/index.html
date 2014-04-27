@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Routing +</title>
+
+    <!-- imported leaflet css style -->
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.css' rel='stylesheet' />
+    <!-- Font aweseome -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Ios Sliders -->
+    <link rel="stylesheet" href="css/switchery.css" />
+
+    <!-- Custom Font -->
+    <link href='http://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet prefetch' title='fonts' type='text/css'>
+
+    <!-- Merged styles -->
+    <!-- Switchery, search-tab, settings-tab, map
+    slider, toggle -->
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+    <!-- Jquery -->
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <!-- <script type="text/javascript" src="js/jquery.history.js"></script> -->
+    <!-- <script type="text/javascript" src="js/jquery.autocomplete.js"></script>
+-->
+
+    <!-- Settings toggles js -->
+    <script src="js/switchery.js"></script>
+
+    <!-- Dropdown -->
+    <script src="js/prefixfree.min.js"></script>
+
+    <!-- MAPBOX files -->
+    <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.js'></script>
+
+    <!-- Graph hopper request -->
+    <script type="text/javascript" src="js/ghrequest.js?v=3"></script>
+    <!-- The other js functions -->
+    <script type="text/javascript" src="js/other.js"></script>
+    <!-- Note this must be below ghrequest -->
+    <script type="text/javascript" src="js/main.js?v=14"></script>
+    <!-- Leaflet and sidebar js -->
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+    <!-- Tab js -->
+    <!-- <script type="text/javascript" src="js/bootstrap.js"></script> -->
+</head>
+
+<body>
+    <div id="map"></div>
+    <!-- Elements on map -->
+    <div class="drop-down">
+        <nav role='navigation'>
+            <div id="input">
+                <div id="tabs">
+                    <div id="route">
+
+                        <form id="locationform">
+                            <!-- From and To text boxes -->
+                            <div id="locationpoints">
+
+                                <div id="fromDiv">
+                                    <img id="fromIndicator" class="hidden" src="img/indicator.gif" />
+                                    <input class="text-box" id="fromInput" type="text" placeholder="From" />
+                                    <div class="clear"></div>
+                                    <!-- <div  id="fromResolveFound"></div> -->
+                                    <div id="fromResolveError"></div>
+                                </div>
+
+                                <div class="clear"></div>
+
+                                <div id="toDiv">
+                                    <img id="toIndicator" class="hidden" src="img/indicator.gif" />
+                                    <input class="text-box" id="toInput" type="text" placeholder="To" />
+                                    <div class="clear"></div>
+                                    <!-- <div id="toResolveFound"></div> -->
+                                    <div id="toResolveError"></div>
+                                </div>
+                            </div>
+
+                            <div class="clear"></div>
+                            <!-- Link map icon -->
+
+                            <div class="settings-container">
+                                <!-- Settings toggle -->
+                                <a href='#' class="btn btn-toggle btn-toggle-settings" id='settings-js-btn'>
+                                    <i class="fa fa-cog"></i>
+                                </a>
+                            </div>
+
+                            <!-- Search button -->
+                            <input class="btn btn-search" id="searchButton" type="submit" value="Search">
+
+                        </form>
+
+
+                        <!-- Buttons -->
+                        <div id="options">
+                            <span id="vehicles"></span>
+                        </div>
+                        <div class="clear"></div>
+
+                        <div id="info" class="small_text hide"></div>
+                        <div id="error" class="error"></div>
+
+                    </div>
+                    <!-- route -->
+
+
+                    <div id="settings">
+
+                        <!-- Settings -->
+                        <div class="tab-pane" id="settings">
+                            <h1>Route Conditions</h1>
+                            <div class="slider-bar">
+                                <div class="slider-heading">Traffic Lights</div>
+                                <br>
+                                <input type="range" min="1" max="5" value="1" id="trafficSignals" />
+                            </div>
+                            <br>
+                            <div class="slider-bar">
+                                <div class="slider-heading">Right Turns</div>
+                                <br>
+                                <input type="range" min="1" max="5" value="1" id="rightTurns" />
+                            </div>
+                            <br>
+                            <div class="slider-bar">
+                                <div class="slider-heading">Motorways</div>
+                                <br>
+                                <input type="range" min="1" max="5" value="1" id="motorway" />
+                            </div>
+                            <br>
+                            <div class="slider-bar">
+                                <div class="slider-heading">Main Roads</div>
+                                <br>
+                                <input type="range" min="1" max="5" value="1" id="mainRoads" />
+                            </div>
+                            <br>
+                            <div class="slider-bar">
+                                <div class="slider-heading">Residential</div>
+                                <br>
+                                <input type="range" min="1" max="5" value="1" id="residential" />
+                            </div>
+
+                            <div class="container">
+                                <form class="settings-toggle-area">
+
+                                    <p>
+                                        <span for="setting1">Shortest</span>
+                                        <input type="checkbox" class="js-switch" name="speed_toggle" checked />
+                                        <span for="setting1">Fastest</span>
+                                    </p>
+
+                                </form>
+                            </div>
+                            <button class="btn btn-save" id="settings-js-btn-save">Save</button>
+                        </div>
+                    </div>
+                    <!-- ./settings-->
+                </div>
+            </div>
+            <!-- ./tabs -->
+
+            <!-- ./input -->
+
+            <!-- ./sidebar -->
+        </nav>
+    </div>
+
+    <div id="map-ui" class="menu">
+        <a class="trigger" href="#">
+            <i class="fa fa-search"></i>
+        </a>
+        <a class="close" href="#">
+            <i class="fa fa-map-marker"></i>
+        </a>
+    </div>
+    <div class="logo-nav">
+        <p>Routing
+            <i class="fa fa-arrows"></i>
+        </p>
+    </div>
+
+
+
+    <script src="js/index.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+
+    <script src="js/switchery.js"></script>
+</body>
+
+</html>

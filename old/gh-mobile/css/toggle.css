@@ -1,0 +1,23 @@
+.settings-toggle-area
+{
+	padding-top: 40px;
+	text-align: right;
+}
+
+.settings-toggle-area p label
+{
+	padding: 10px;
+	font-size: 17px;
+	float: left;
+
+}
+.settings-toggle-area p input
+{
+	float: right;
+
+}
+
+input:focus
+{
+    outline: 0;
+}
