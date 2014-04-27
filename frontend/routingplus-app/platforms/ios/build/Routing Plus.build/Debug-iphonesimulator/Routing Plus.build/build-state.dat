@@ -1,0 +1,824 @@
+TRouting Plus
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app/Info.plist /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Routing\ Plus-Info.plist
+cPhaseScriptExecution Copy\ www\ directory /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Script-304B58A110DAC018002A0835.sh
+cCpResource Routing\ Plus/config.xml build/emulator/Routing\ Plus.app/config.xml
+cCpResource Routing\ Plus/Resources/icons/icon-76.png build/emulator/Routing\ Plus.app/icon-76.png
+cCpResource Routing\ Plus/Resources/icons/icon-40@2x.png build/emulator/Routing\ Plus.app/icon-40@2x.png
+cCpResource Routing\ Plus/Resources/icons/icon-72.png build/emulator/Routing\ Plus.app/icon-72.png
+cCpResource Routing\ Plus/Resources/icons/icon.png build/emulator/Routing\ Plus.app/icon.png
+cCpResource Routing\ Plus/Resources/icons/icon@2x.png build/emulator/Routing\ Plus.app/icon@2x.png
+cCopyStringsFile /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app/en.lproj/Localizable.strings Routing\ Plus/Resources/en.lproj/Localizable.strings
+cCompileXIB /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Classes/MainViewController.xib
+cCpResource Routing\ Plus/Resources/icons/icon-50.png build/emulator/Routing\ Plus.app/icon-50.png
+cCpResource Routing\ Plus/Resources/icons/icon-60@2x.png build/emulator/Routing\ Plus.app/icon-60@2x.png
+cCopyStringsFile /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app/de.lproj/Localizable.strings Routing\ Plus/Resources/de.lproj/Localizable.strings
+cCpResource Routing\ Plus/Resources/icons/icon-small.png build/emulator/Routing\ Plus.app/icon-small.png
+cCpResource Routing\ Plus/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Routing\ Plus.app/Default-Landscape@2x~ipad.png
+cCpResource Routing\ Plus/Resources/splash/Default-Landscape~ipad.png build/emulator/Routing\ Plus.app/Default-Landscape~ipad.png
+cCpResource Routing\ Plus/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Routing\ Plus.app/Default-Portrait@2x~ipad.png
+cCpResource Routing\ Plus/Resources/icons/icon-small@2x.png build/emulator/Routing\ Plus.app/icon-small@2x.png
+cCpResource Routing\ Plus/Resources/splash/Default-Portrait~ipad.png build/emulator/Routing\ Plus.app/Default-Portrait~ipad.png
+cCpResource Routing\ Plus/Resources/icons/icon-40.png build/emulator/Routing\ Plus.app/icon-40.png
+cCpResource Routing\ Plus/Resources/splash/Default@2x~iphone.png build/emulator/Routing\ Plus.app/Default@2x~iphone.png
+cCpResource Routing\ Plus/Resources/icons/icon-60.png build/emulator/Routing\ Plus.app/icon-60.png
+cCpResource Routing\ Plus/Resources/splash/Default-568h@2x~iphone.png build/emulator/Routing\ Plus.app/Default-568h@2x~iphone.png
+cCpResource Routing\ Plus/Resources/icons/icon-50@2x.png build/emulator/Routing\ Plus.app/icon-50@2x.png
+cCpResource Routing\ Plus/Resources/splash/Default~iphone.png build/emulator/Routing\ Plus.app/Default~iphone.png
+cCpResource Routing\ Plus/Resources/icons/icon-76@2x.png build/emulator/Routing\ Plus.app/icon-76@2x.png
+cCpResource Routing\ Plus/Resources/icons/icon-72@2x.png build/emulator/Routing\ Plus.app/icon-72@2x.png
+cProcessPCH /var/folders/b1/ml197xz50v502lwh2vyjkm3c0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Routing\ Plus-Prefix-bzixhhkooasmureffwcarriecngh/Routing\ Plus-Prefix.pch.pch Routing\ Plus/Routing\ Plus-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Objects-normal/i386/main.o /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Objects-normal/i386/AppDelegate.o /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Objects-normal/i386/MainViewController.o /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app/Routing\ Plus normal i386
+cGenerateDSYMFile /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app.dSYM /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app/Routing\ Plus
+cTouch /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c00000000531E5C6800000000000003B4
+t1394498664
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531E5C6F000000000000019E
+t1394498671
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c00000000531E5C700000000000059340
+t1394498672
+s365376
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000531E5C710000000000446820
+t1394498673
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000531E5C7100000000000F1A80
+t1394498673
+s989824
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000531E5C7400000000001BE790
+t1394498676
+s1828752
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Classes/AppDelegate.m
+c00000000533C462400000000000013AF
+t1396459044
+s5039
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Classes/MainViewController.m
+c00000000533C4624000000000000126D
+t1396459044
+s4717
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Classes/MainViewController.xib
+c00000000533C46240000000000001759
+t1396459044
+s5977
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Resources/de.lproj/Localizable.strings
+c00000000533C462400000000000004BF
+t1396459044
+s1215
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Resources/en.lproj/Localizable.strings
+c00000000533C462400000000000004AA
+t1396459044
+s1194
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Resources/icons/icon-40.png
+c00000000533C2FEE0000000000001262
+t1396453358
+s4706
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Resources/icons/icon-40@2x.png
+c00000000533C2FEE0000000000001740
+t1396453358
+s5952
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Resources/icons/icon-50.png
+c00000000533C2FEE00000000000013A1
+t1396453358
+s5025
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Resources/icons/icon-50@2x.png
+c00000000533C2FEE0000000000001918
+t1396453358
+s6424
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Resources/icons/icon-60.png
+c00000000533C2FEE0000000000001490
+t1396453358
+s5264
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Resources/icons/icon-60@2x.png
+c00000000533C2FEE0000000000001BE2
+t1396453358
+s7138
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Resources/icons/icon-72.png
+c00000000533C2FEE00000000000015FB
+t1396453358
+s5627
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Resources/icons/icon-72@2x.png
+c00000000533C2FEE0000000000001F40
+t1396453358
+s8000
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Resources/icons/icon-76.png
+c00000000533C2FEE0000000000001652
+t1396453358
+s5714
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Resources/icons/icon-76@2x.png
+c00000000533C2FEE00000000000020CF
+t1396453358
+s8399
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Resources/icons/icon-small.png
+c00000000533C2FEE00000000000010F1
+t1396453358
+s4337
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Resources/icons/icon-small@2x.png
+c00000000533C2FEE00000000000014AA
+t1396453358
+s5290
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Resources/icons/icon.png
+c00000000533C2FEE00000000000014A0
+t1396453358
+s5280
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Resources/icons/icon@2x.png
+c00000000533C2FEE0000000000001BC3
+t1396453358
+s7107
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Resources/splash/Default-568h@2x~iphone.png
+c00000000533C43A200000000000096EE
+t1396458402
+s38638
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Resources/splash/Default-Landscape@2x~ipad.png
+c00000000533C44B2000000000000CF05
+t1396458674
+s52997
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Resources/splash/Default-Landscape~ipad.png
+c00000000533C44E1000000000000D0B0
+t1396458721
+s53424
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Resources/splash/Default-Portrait@2x~ipad.png
+c00000000533C451D000000000000D50C
+t1396458781
+s54540
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Resources/splash/Default-Portrait~ipad.png
+c00000000533C454B000000000000D50C
+t1396458827
+s54540
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Resources/splash/Default@2x~iphone.png
+c00000000533C41CD0000000000008295
+t1396457933
+s33429
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Resources/splash/Default~iphone.png
+c00000000533C41CD0000000000008295
+t1396457933
+s33429
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Routing Plus-Info.plist
+c00000000533C4AB700000000000009D9
+t1396460215
+s2521
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Routing Plus-Prefix.pch
+c00000000533C462400000000000003C9
+t1396459044
+s969
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/config.xml
+c00000000533C4AB7000000000000123F
+t1396460215
+s4671
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/main.m
+c00000000533C4624000000000000045E
+t1396459044
+s1118
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build/Objects-normal/i386/AppDelegate.o
+t1396460222
+s74068
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build/Objects-normal/i386/MainViewController.o
+t1396460222
+s50844
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build/Objects-normal/i386/Routing Plus.LinkFileList
+c00000000533C4ABD000000000000020D
+t1396460221
+s525
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build/Objects-normal/i386/main.o
+t1396460222
+s3044
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build/Script-304B58A110DAC018002A0835.sh
+c00000000533C4ABD000000000000002D
+t1396460221
+s45
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app
+t1396460222
+s1020
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app.dSYM
+t2
+s0
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/Default-568h@2x~iphone.png
+t1396460222
+s38638
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/Default-Landscape@2x~ipad.png
+t1396460222
+s52997
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/Default-Landscape~ipad.png
+t1396460222
+s53424
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/Default-Portrait@2x~ipad.png
+t1396460222
+s54540
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/Default-Portrait~ipad.png
+t1396460222
+s54540
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/Default@2x~iphone.png
+t1396460222
+s33429
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/Default~iphone.png
+t1396460222
+s33429
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/Info.plist
+t1396460221
+s1252
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/MainViewController.nib
+t1396460222
+s1332
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/PkgInfo
+t2
+s0
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/Routing Plus
+t1396460222
+s284660
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/config.xml
+t1396460222
+s4671
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/de.lproj/Localizable.strings
+t1396460222
+s280
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/en.lproj/Localizable.strings
+t1396460222
+s166
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/icon-40.png
+t1396460222
+s4706
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/icon-40@2x.png
+t1396460222
+s5952
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/icon-50.png
+t1396460222
+s5025
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/icon-50@2x.png
+t1396460222
+s6424
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/icon-60.png
+t1396460222
+s5264
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/icon-60@2x.png
+t1396460222
+s7138
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/icon-72.png
+t1396460222
+s5627
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/icon-72@2x.png
+t1396460222
+s8000
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/icon-76.png
+t1396460222
+s5714
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/icon-76@2x.png
+t1396460222
+s8399
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/icon-small.png
+t1396460222
+s4337
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/icon-small@2x.png
+t1396460222
+s5290
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/icon.png
+t1396460222
+s5280
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/icon@2x.png
+t1396460222
+s7107
+
+N/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/libCordova.a
+c00000000533C4ABD00000000000D0BF0
+t1396460221
+s855024
+
+N/var/folders/b1/ml197xz50v502lwh2vyjkm3c0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Routing Plus-Prefix-bzixhhkooasmureffwcarriecngh/Routing Plus-Prefix.pch.pch
+t1396459051
+s5374552
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesb475fc3d82ecb841^9f5afd3d82ecb841^---0#1#1#--18"Check dependencies36"68A1D7DD-A01D-4003-B721-5F5E09793F5E-
+
+CCompileC build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Objects-normal/i386/AppDelegate.o /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418153022.330468
+e418153022.416182
+r1
+xCompileC
+xbuild/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build/Objects-normal/i386/AppDelegate.o
+x/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Classes/AppDelegate.m
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Classes/AppDelegate.h
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Classes/MainViewController.h
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compile /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Classes/AppDelegate.m214"CompileC build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Objects-normal/i386/AppDelegate.o Routing\ Plus/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler2eca543e82ecb841^c68a6a3e82ecb841^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing%20Plus/Classes/AppDelegate.m0000000000000000^4486"CompileC build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Objects-normal/i386/AppDelegate.o Routing\ Plus/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Routing\ Plus-generated-files.hmap -I/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Routing\ Plus-own-target-headers.hmap -I/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Routing\ Plus-all-target-headers.hmap -iquote /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Routing\ Plus-project-headers.hmap -I/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/include -I/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/usr/local/lib/include -I/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/UninstalledProducts/include -I/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator -I/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/DerivedSources/i386 -I/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/DerivedSources -F/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator -include /var/folders/b1/ml197xz50v502lwh2vyjkm3c0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Routing\ Plus-Prefix-bzixhhkooasmureffwcarriecngh/Routing\ Plus-Prefix.pch -MMD -MT dependencies -MF /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Objects-normal/i386/AppDelegate.dia -c /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Classes/AppDelegate.m -o /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Objects-normal/i386/AppDelegate.o36"B613DC22-6B5F-4A0B-BEA6-7C7E8A5CC35A-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CCompileC build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Objects-normal/i386/MainViewController.o /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418153022.331718
+e418153022.406686
+r1
+xCompileC
+xbuild/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build/Objects-normal/i386/MainViewController.o
+x/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Classes/MainViewController.m
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Classes/MainViewController.h
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Compile /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Classes/MainViewController.m228"CompileC build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Objects-normal/i386/MainViewController.o Routing\ Plus/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler7f33553e82ecb841^0341683e82ecb841^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing%20Plus/Classes/MainViewController.m0000000000000000^4528"CompileC build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Objects-normal/i386/MainViewController.o Routing\ Plus/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Routing\ Plus-generated-files.hmap -I/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Routing\ Plus-own-target-headers.hmap -I/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Routing\ Plus-all-target-headers.hmap -iquote /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Routing\ Plus-project-headers.hmap -I/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/include -I/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/usr/local/lib/include -I/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/UninstalledProducts/include -I/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator -I/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/DerivedSources/i386 -I/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/DerivedSources -F/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator -include /var/folders/b1/ml197xz50v502lwh2vyjkm3c0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Routing\ Plus-Prefix-bzixhhkooasmureffwcarriecngh/Routing\ Plus-Prefix.pch -MMD -MT dependencies -MF /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Objects-normal/i386/MainViewController.dia -c /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Classes/MainViewController.m -o /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Objects-normal/i386/MainViewController.o36"FE109CBE-52E0-42BF-8AC6-C56CB1C853A1-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CCompileC build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Objects-normal/i386/main.o /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418153022.329507
+e418153022.354676
+r1
+xCompileC
+xbuild/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build/Objects-normal/i386/main.o
+x/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/main.m192"CompileC build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Objects-normal/i386/main.o Routing\ Plus/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera584543e82ecb841^23135c3e82ecb841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing%20Plus/main.m0000000000000000^4428"CompileC build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Objects-normal/i386/main.o Routing\ Plus/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Routing\ Plus-generated-files.hmap -I/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Routing\ Plus-own-target-headers.hmap -I/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Routing\ Plus-all-target-headers.hmap -iquote /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Routing\ Plus-project-headers.hmap -I/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/include -I/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/usr/local/lib/include -I/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/UninstalledProducts/include -I/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator -I/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/DerivedSources/i386 -I/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/DerivedSources -F/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator -include /var/folders/b1/ml197xz50v502lwh2vyjkm3c0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Routing\ Plus-Prefix-bzixhhkooasmureffwcarriecngh/Routing\ Plus-Prefix.pch -MMD -MT dependencies -MF /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Objects-normal/i386/main.dia -c /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/main.m -o /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Objects-normal/i386/main.o36"7B490F29-D368-4C54-AA0C-78DA1EC0D810-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CCompileXIB /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Classes/MainViewController.xib
+s418153022.302536
+e418153022.324175
+r1
+xCompileXIB
+x/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Classes/MainViewController.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Compiling /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Classes/MainViewController.xib55"CompileXIB Routing\ Plus/Classes/MainViewController.xib52b54d3e82ecb841^527d533e82ecb841^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing%20Plus/Classes/MainViewController.xib0000000000000000^1165"CompileXIB Routing\ Plus/Classes/MainViewController.xib    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.0 --output-format human-readable-text --compile /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app/MainViewController.nib /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Classes/MainViewController.xib36"03BDEB4B-31B0-4B67-BC14-1728F425BFAE-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CCopyStringsFile /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app/de.lproj/Localizable.strings Routing\ Plus/Resources/de.lproj/Localizable.strings
+s418153022.303698
+e418153022.309185
+r1
+xCopyStringsFile
+x/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/de.lproj/Localizable.strings
+xRouting Plus/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy Routing Plus/Resources/de.lproj/Localizable.strings130"CopyStringsFile build/emulator/Routing\ Plus.app/de.lproj/Localizable.strings Routing\ Plus/Resources/de.lproj/Localizable.strings5de14d3e82ecb841^bdc54f3e82ecb841^---0#0#1#-19%DVTDocumentLocation2@135"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing%20Plus/Resources/de.lproj/Localizable.strings0000000000000000^947"CopyStringsFile build/emulator/Routing\ Plus.app/de.lproj/Localizable.strings Routing\ Plus/Resources/de.lproj/Localizable.strings    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app/de.lproj -- Routing\ Plus/Resources/de.lproj/Localizable.strings36"749A6CE7-7A71-4D8F-8847-FB7EF3154D79-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CCopyStringsFile /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app/en.lproj/Localizable.strings Routing\ Plus/Resources/en.lproj/Localizable.strings
+s418153022.298230
+e418153022.302063
+r1
+xCopyStringsFile
+x/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/en.lproj/Localizable.strings
+xRouting Plus/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy Routing Plus/Resources/en.lproj/Localizable.strings130"CopyStringsFile build/emulator/Routing\ Plus.app/en.lproj/Localizable.strings Routing\ Plus/Resources/en.lproj/Localizable.stringse17a4c3e82ecb841^c8264d3e82ecb841^---0#0#1#-19%DVTDocumentLocation2@135"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing%20Plus/Resources/en.lproj/Localizable.strings0000000000000000^947"CopyStringsFile build/emulator/Routing\ Plus.app/en.lproj/Localizable.strings Routing\ Plus/Resources/en.lproj/Localizable.strings    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app/en.lproj -- Routing\ Plus/Resources/en.lproj/Localizable.strings36"8AEF6E3A-7EC3-40B0-BEB3-4D85A5A25CA9-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CCpResource Routing\ Plus/Resources/icons/icon-40.png build/emulator/Routing\ Plus.app/icon-40.png
+s418153022.315226
+e418153022.317374
+r1
+xCpResource
+xRouting Plus/Resources/icons/icon-40.png
+xbuild/emulator/Routing Plus.app/icon-40.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/emulator/Routing Plus.app/icon-40.png97"CpResource Routing\ Plus/Resources/icons/icon-40.png build/emulator/Routing\ Plus.app/icon-40.png78d0503e82ecb841^1edc513e82ecb841^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing%20Plus.app/icon-40.png00340872deffdf42^988"CpResource Routing\ Plus/Resources/icons/icon-40.png build/emulator/Routing\ Plus.app/icon-40.png    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Resources/icons/icon-40.png /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app36"C44AF2E7-D4EB-4A0D-9A7C-A77DB2063333-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CCpResource Routing\ Plus/Resources/icons/icon-40@2x.png build/emulator/Routing\ Plus.app/icon-40@2x.png
+s418153022.293931
+e418153022.295320
+r1
+xCpResource
+xRouting Plus/Resources/icons/icon-40@2x.png
+xbuild/emulator/Routing Plus.app/icon-40@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy build/emulator/Routing Plus.app/icon-40@2x.png103"CpResource Routing\ Plus/Resources/icons/icon-40@2x.png build/emulator/Routing\ Plus.app/icon-40@2x.png9e5c4b3e82ecb841^64af4b3e82ecb841^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing%20Plus.app/icon-40@2x.png00340872deffdf42^997"CpResource Routing\ Plus/Resources/icons/icon-40@2x.png build/emulator/Routing\ Plus.app/icon-40@2x.png    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Resources/icons/icon-40@2x.png /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app36"4CA9C474-D16C-40E0-834B-F63B3EF3C0A4-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CCpResource Routing\ Plus/Resources/icons/icon-50.png build/emulator/Routing\ Plus.app/icon-50.png
+s418153022.302819
+e418153022.306048
+r1
+xCpResource
+xRouting Plus/Resources/icons/icon-50.png
+xbuild/emulator/Routing Plus.app/icon-50.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/emulator/Routing Plus.app/icon-50.png97"CpResource Routing\ Plus/Resources/icons/icon-50.png build/emulator/Routing\ Plus.app/icon-50.png6ebe4d3e82ecb841^10ea4e3e82ecb841^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing%20Plus.app/icon-50.png00340872deffdf42^988"CpResource Routing\ Plus/Resources/icons/icon-50.png build/emulator/Routing\ Plus.app/icon-50.png    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Resources/icons/icon-50.png /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app36"978C5330-8DC9-4F1E-9E4A-636D8BF44E84-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CCpResource Routing\ Plus/Resources/icons/icon-50@2x.png build/emulator/Routing\ Plus.app/icon-50@2x.png
+s418153022.320374
+e418153022.322806
+r1
+xCpResource
+xRouting Plus/Resources/icons/icon-50@2x.png
+xbuild/emulator/Routing Plus.app/icon-50@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy build/emulator/Routing Plus.app/icon-50@2x.png103"CpResource Routing\ Plus/Resources/icons/icon-50@2x.png build/emulator/Routing\ Plus.app/icon-50@2x.pngcc24523e82ecb841^6495523e82ecb841^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing%20Plus.app/icon-50@2x.png00340872deffdf42^997"CpResource Routing\ Plus/Resources/icons/icon-50@2x.png build/emulator/Routing\ Plus.app/icon-50@2x.png    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Resources/icons/icon-50@2x.png /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app36"095B8F8D-7B2E-46A2-9933-D6F5B2C39BB9-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CCpResource Routing\ Plus/Resources/icons/icon-60.png build/emulator/Routing\ Plus.app/icon-60.png
+s418153022.318488
+e418153022.320128
+r1
+xCpResource
+xRouting Plus/Resources/icons/icon-60.png
+xbuild/emulator/Routing Plus.app/icon-60.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/emulator/Routing Plus.app/icon-60.png97"CpResource Routing\ Plus/Resources/icons/icon-60.png build/emulator/Routing\ Plus.app/icon-60.pnga8a9513e82ecb841^ef90523e82ecb841^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing%20Plus.app/icon-60.png00340872deffdf42^988"CpResource Routing\ Plus/Resources/icons/icon-60.png build/emulator/Routing\ Plus.app/icon-60.png    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Resources/icons/icon-60.png /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app36"6864DC7B-5E9A-42E3-8FEA-8F53CDD9FBEF-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CCpResource Routing\ Plus/Resources/icons/icon-60@2x.png build/emulator/Routing\ Plus.app/icon-60@2x.png
+s418153022.303037
+e418153022.305225
+r1
+xCpResource
+xRouting Plus/Resources/icons/icon-60@2x.png
+xbuild/emulator/Routing Plus.app/icon-60@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy build/emulator/Routing Plus.app/icon-60@2x.png103"CpResource Routing\ Plus/Resources/icons/icon-60@2x.png build/emulator/Routing\ Plus.app/icon-60@2x.png41b94d3e82ecb841^b5c04e3e82ecb841^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing%20Plus.app/icon-60@2x.png00340872deffdf42^997"CpResource Routing\ Plus/Resources/icons/icon-60@2x.png build/emulator/Routing\ Plus.app/icon-60@2x.png    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Resources/icons/icon-60@2x.png /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app36"B6C965D1-6482-4493-A7D5-66C8C2080DFD-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CCpResource Routing\ Plus/Resources/icons/icon-72.png build/emulator/Routing\ Plus.app/icon-72.png
+s418153022.294402
+e418153022.300304
+r1
+xCpResource
+xRouting Plus/Resources/icons/icon-72.png
+xbuild/emulator/Routing Plus.app/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/emulator/Routing Plus.app/icon-72.png97"CpResource Routing\ Plus/Resources/icons/icon-72.png build/emulator/Routing\ Plus.app/icon-72.png247c4b3e82ecb841^c51b4d3e82ecb841^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing%20Plus.app/icon-72.png00340872deffdf42^988"CpResource Routing\ Plus/Resources/icons/icon-72.png build/emulator/Routing\ Plus.app/icon-72.png    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Resources/icons/icon-72.png /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app36"56E4465B-EFAD-4AA0-97A0-12FEDA933DB0-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CCpResource Routing\ Plus/Resources/icons/icon-72@2x.png build/emulator/Routing\ Plus.app/icon-72@2x.png
+s418153022.324600
+e418153022.327478
+r1
+xCpResource
+xRouting Plus/Resources/icons/icon-72@2x.png
+xbuild/emulator/Routing Plus.app/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy build/emulator/Routing Plus.app/icon-72@2x.png103"CpResource Routing\ Plus/Resources/icons/icon-72@2x.png build/emulator/Routing\ Plus.app/icon-72@2x.png60ac533e82ecb841^e5f2533e82ecb841^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing%20Plus.app/icon-72@2x.png00340872deffdf42^997"CpResource Routing\ Plus/Resources/icons/icon-72@2x.png build/emulator/Routing\ Plus.app/icon-72@2x.png    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Resources/icons/icon-72@2x.png /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app36"58EE2452-5573-416F-90A7-CCD87E2FE241-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CCpResource Routing\ Plus/Resources/icons/icon-76.png build/emulator/Routing\ Plus.app/icon-76.png
+s418153022.293165
+e418153022.295061
+r1
+xCpResource
+xRouting Plus/Resources/icons/icon-76.png
+xbuild/emulator/Routing Plus.app/icon-76.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/emulator/Routing Plus.app/icon-76.png97"CpResource Routing\ Plus/Resources/icons/icon-76.png build/emulator/Routing\ Plus.app/icon-76.png87334b3e82ecb841^c6a84b3e82ecb841^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing%20Plus.app/icon-76.png00340872deffdf42^988"CpResource Routing\ Plus/Resources/icons/icon-76.png build/emulator/Routing\ Plus.app/icon-76.png    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Resources/icons/icon-76.png /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app36"5B164FF1-F5C7-42BC-8D8D-9873378B4DEA-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CCpResource Routing\ Plus/Resources/icons/icon-76@2x.png build/emulator/Routing\ Plus.app/icon-76@2x.png
+s418153022.323109
+e418153022.324742
+r1
+xCpResource
+xRouting Plus/Resources/icons/icon-76@2x.png
+xbuild/emulator/Routing Plus.app/icon-76@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy build/emulator/Routing Plus.app/icon-76@2x.png103"CpResource Routing\ Plus/Resources/icons/icon-76@2x.png build/emulator/Routing\ Plus.app/icon-76@2x.png1edf523e82ecb841^fa98533e82ecb841^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing%20Plus.app/icon-76@2x.png00340872deffdf42^997"CpResource Routing\ Plus/Resources/icons/icon-76@2x.png build/emulator/Routing\ Plus.app/icon-76@2x.png    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Resources/icons/icon-76@2x.png /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app36"BBAA5983-8E8C-4743-A88B-5F83671C8332-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CCpResource Routing\ Plus/Resources/icons/icon-small.png build/emulator/Routing\ Plus.app/icon-small.png
+s418153022.305445
+e418153022.309084
+r1
+xCpResource
+xRouting Plus/Resources/icons/icon-small.png
+xbuild/emulator/Routing Plus.app/icon-small.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy build/emulator/Routing Plus.app/icon-small.png103"CpResource Routing\ Plus/Resources/icons/icon-small.png build/emulator/Routing\ Plus.app/icon-small.pngd7a14e3e82ecb841^83bf4f3e82ecb841^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing%20Plus.app/icon-small.png00340872deffdf42^997"CpResource Routing\ Plus/Resources/icons/icon-small.png build/emulator/Routing\ Plus.app/icon-small.png    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Resources/icons/icon-small.png /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app36"0B97C5AA-A2F8-49D1-926D-58708531C467-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CCpResource Routing\ Plus/Resources/icons/icon-small@2x.png build/emulator/Routing\ Plus.app/icon-small@2x.png
+s418153022.310690
+e418153022.312699
+r1
+xCpResource
+xRouting Plus/Resources/icons/icon-small@2x.png
+xbuild/emulator/Routing Plus.app/icon-small@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/emulator/Routing Plus.app/icon-small@2x.png109"CpResource Routing\ Plus/Resources/icons/icon-small@2x.png build/emulator/Routing\ Plus.app/icon-small@2x.png32ab4f3e82ecb841^9278513e82ecb841^---0#0#1#-19%DVTDocumentLocation2@133"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing%20Plus.app/icon-small@2x.png00340872deffdf42^1006"CpResource Routing\ Plus/Resources/icons/icon-small@2x.png build/emulator/Routing\ Plus.app/icon-small@2x.png    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Resources/icons/icon-small@2x.png /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app36"8863E1A9-1FB1-470F-9423-80041125E99D-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CCpResource Routing\ Plus/Resources/icons/icon.png build/emulator/Routing\ Plus.app/icon.png
+s418153022.295286
+e418153022.301846
+r1
+xCpResource
+xRouting Plus/Resources/icons/icon.png
+xbuild/emulator/Routing Plus.app/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/emulator/Routing Plus.app/icon.png91"CpResource Routing\ Plus/Resources/icons/icon.png build/emulator/Routing\ Plus.app/icon.pngc4944c3e82ecb841^d1244d3e82ecb841^---0#0#1#-19%DVTDocumentLocation2@124"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing%20Plus.app/icon.png00340872deffdf42^979"CpResource Routing\ Plus/Resources/icons/icon.png build/emulator/Routing\ Plus.app/icon.png    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Resources/icons/icon.png /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app36"9CB49EE8-7846-43CF-B241-588F4D9A049E-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CCpResource Routing\ Plus/Resources/icons/icon@2x.png build/emulator/Routing\ Plus.app/icon@2x.png
+s418153022.296347
+e418153022.297954
+r1
+xCpResource
+xRouting Plus/Resources/icons/icon@2x.png
+xbuild/emulator/Routing Plus.app/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/emulator/Routing Plus.app/icon@2x.png97"CpResource Routing\ Plus/Resources/icons/icon@2x.png build/emulator/Routing\ Plus.app/icon@2x.png53044c3e82ecb841^c5ca4c3e82ecb841^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing%20Plus.app/icon@2x.png00340872deffdf42^988"CpResource Routing\ Plus/Resources/icons/icon@2x.png build/emulator/Routing\ Plus.app/icon@2x.png    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Resources/icons/icon@2x.png /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app36"82DCE6A4-67FC-4D06-B64E-DDAECFBFA526-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CCpResource Routing\ Plus/Resources/splash/Default-568h@2x~iphone.png build/emulator/Routing\ Plus.app/Default-568h@2x~iphone.png
+s418153022.319784
+e418153022.325648
+r1
+xCpResource
+xRouting Plus/Resources/splash/Default-568h@2x~iphone.png
+xbuild/emulator/Routing Plus.app/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/emulator/Routing Plus.app/Default-568h@2x~iphone.png128"CpResource Routing\ Plus/Resources/splash/Default-568h@2x~iphone.png build/emulator/Routing\ Plus.app/Default-568h@2x~iphone.pngfcde523e82ecb841^00ca533e82ecb841^---0#0#1#-19%DVTDocumentLocation2@142"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing%20Plus.app/Default-568h@2x~iphone.png00340872deffdf42^1035"CpResource Routing\ Plus/Resources/splash/Default-568h@2x~iphone.png build/emulator/Routing\ Plus.app/Default-568h@2x~iphone.png    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Resources/splash/Default-568h@2x~iphone.png /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app36"8451ADB9-995D-411C-9457-6A92C27FB381-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CCpResource Routing\ Plus/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Routing\ Plus.app/Default-Landscape@2x~ipad.png
+s418153022.306336
+e418153022.309085
+r1
+xCpResource
+xRouting Plus/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/emulator/Routing Plus.app/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy build/emulator/Routing Plus.app/Default-Landscape@2x~ipad.png134"CpResource Routing\ Plus/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Routing\ Plus.app/Default-Landscape@2x~ipad.png86cb4e3e82ecb841^1ec34f3e82ecb841^---0#0#1#-19%DVTDocumentLocation2@145"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing%20Plus.app/Default-Landscape@2x~ipad.png00340872deffdf42^1044"CpResource Routing\ Plus/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Routing\ Plus.app/Default-Landscape@2x~ipad.png    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Resources/splash/Default-Landscape@2x~ipad.png /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app36"DDD493E1-FDB5-496C-A6A0-B49C868CC48A-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CCpResource Routing\ Plus/Resources/splash/Default-Landscape~ipad.png build/emulator/Routing\ Plus.app/Default-Landscape~ipad.png
+s418153022.309229
+e418153022.314976
+r1
+xCpResource
+xRouting Plus/Resources/splash/Default-Landscape~ipad.png
+xbuild/emulator/Routing Plus.app/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/emulator/Routing Plus.app/Default-Landscape~ipad.png128"CpResource Routing\ Plus/Resources/splash/Default-Landscape~ipad.png build/emulator/Routing\ Plus.app/Default-Landscape~ipad.png3108503e82ecb841^11a9513e82ecb841^---0#0#1#-19%DVTDocumentLocation2@142"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing%20Plus.app/Default-Landscape~ipad.png00340872deffdf42^1035"CpResource Routing\ Plus/Resources/splash/Default-Landscape~ipad.png build/emulator/Routing\ Plus.app/Default-Landscape~ipad.png    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Resources/splash/Default-Landscape~ipad.png /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app36"39CCB9FF-E951-40C7-9CC6-F4F16D00C1C5-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CCpResource Routing\ Plus/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Routing\ Plus.app/Default-Portrait@2x~ipad.png
+s418153022.310021
+e418153022.313064
+r1
+xCpResource
+xRouting Plus/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/emulator/Routing Plus.app/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/emulator/Routing Plus.app/Default-Portrait@2x~ipad.png132"CpResource Routing\ Plus/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Routing\ Plus.app/Default-Portrait@2x~ipad.png317d4f3e82ecb841^e085513e82ecb841^---0#0#1#-19%DVTDocumentLocation2@144"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing%20Plus.app/Default-Portrait@2x~ipad.png00340872deffdf42^1041"CpResource Routing\ Plus/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Routing\ Plus.app/Default-Portrait@2x~ipad.png    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Resources/splash/Default-Portrait@2x~ipad.png /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app36"789A720E-CDFB-4FAF-89C9-5041AE124CC2-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CCpResource Routing\ Plus/Resources/splash/Default-Portrait~ipad.png build/emulator/Routing\ Plus.app/Default-Portrait~ipad.png
+s418153022.314312
+e418153022.317263
+r1
+xCpResource
+xRouting Plus/Resources/splash/Default-Portrait~ipad.png
+xbuild/emulator/Routing Plus.app/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/emulator/Routing Plus.app/Default-Portrait~ipad.png126"CpResource Routing\ Plus/Resources/splash/Default-Portrait~ipad.png build/emulator/Routing\ Plus.app/Default-Portrait~ipad.png6896503e82ecb841^cdac513e82ecb841^---0#0#1#-19%DVTDocumentLocation2@141"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing%20Plus.app/Default-Portrait~ipad.png00340872deffdf42^1032"CpResource Routing\ Plus/Resources/splash/Default-Portrait~ipad.png build/emulator/Routing\ Plus.app/Default-Portrait~ipad.png    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Resources/splash/Default-Portrait~ipad.png /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app36"B21A450E-2418-4B3B-BE0A-92E4CF28C39F-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CCpResource Routing\ Plus/Resources/splash/Default@2x~iphone.png build/emulator/Routing\ Plus.app/Default@2x~iphone.png
+s418153022.315791
+e418153022.317926
+r1
+xCpResource
+xRouting Plus/Resources/splash/Default@2x~iphone.png
+xbuild/emulator/Routing Plus.app/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/emulator/Routing Plus.app/Default@2x~iphone.png118"CpResource Routing\ Plus/Resources/splash/Default@2x~iphone.png build/emulator/Routing\ Plus.app/Default@2x~iphone.png41f4503e82ecb841^2ae1513e82ecb841^---0#0#1#-19%DVTDocumentLocation2@137"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing%20Plus.app/Default@2x~iphone.png00340872deffdf42^1020"CpResource Routing\ Plus/Resources/splash/Default@2x~iphone.png build/emulator/Routing\ Plus.app/Default@2x~iphone.png    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Resources/splash/Default@2x~iphone.png /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app36"8D9CF767-7ECB-4631-B783-C6A504C673FE-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CCpResource Routing\ Plus/Resources/splash/Default~iphone.png build/emulator/Routing\ Plus.app/Default~iphone.png
+s418153022.320878
+e418153022.327494
+r1
+xCpResource
+xRouting Plus/Resources/splash/Default~iphone.png
+xbuild/emulator/Routing Plus.app/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/emulator/Routing Plus.app/Default~iphone.png112"CpResource Routing\ Plus/Resources/splash/Default~iphone.png build/emulator/Routing\ Plus.app/Default~iphone.pngc66e533e82ecb841^afeb533e82ecb841^---0#0#1#-19%DVTDocumentLocation2@134"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing%20Plus.app/Default~iphone.png00340872deffdf42^1011"CpResource Routing\ Plus/Resources/splash/Default~iphone.png build/emulator/Routing\ Plus.app/Default~iphone.png    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Resources/splash/Default~iphone.png /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app36"4149C699-064B-455B-A7D9-F9012320806D-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CCpResource Routing\ Plus/config.xml build/emulator/Routing\ Plus.app/config.xml
+s418153022.292880
+e418153022.296739
+r1
+xCpResource
+xRouting Plus/config.xml
+xbuild/emulator/Routing Plus.app/config.xml
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/emulator/Routing Plus.app/config.xml79"CpResource Routing\ Plus/config.xml build/emulator/Routing\ Plus.app/config.xml1b2d4b3e82ecb841^0e144c3e82ecb841^---0#0#1#-19%DVTDocumentLocation2@126"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing%20Plus.app/config.xml00340872deffdf42^953"CpResource Routing\ Plus/config.xml build/emulator/Routing\ Plus.app/config.xml    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/config.xml /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app36"6A833E55-E384-4614-89A7-DE91F615C1D7-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CGenerateDSYMFile /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app.dSYM /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app/Routing\ Plus
+s418153022.488307
+e418153022.530071
+r1
+xGenerateDSYMFile
+x/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app.dSYM
+x/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/Routing Plus
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Generate /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app.dSYM101"GenerateDSYMFile build/emulator/Routing\ Plus.app.dSYM build/emulator/Routing\ Plus.app/Routing\ Plus96227d3e82ecb841^55c2873e82ecb841^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing%20Plus.app.dSYM00340872deffdf42^993"GenerateDSYMFile build/emulator/Routing\ Plus.app.dSYM build/emulator/Routing\ Plus.app/Routing\ Plus    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app/Routing\ Plus -o /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app.dSYM36"8F98D3E2-A2F5-4386-90F5-62EBCEE604EA-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CLd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app/Routing\ Plus normal i386
+s418153022.417050
+e418153022.487256
+r1
+xLd
+x/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/Routing Plus
+xnormal
+xi386
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build/Objects-normal/i386/Routing Plus.LinkFileList
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build/Objects-normal/i386/main.o
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build/Objects-normal/i386/AppDelegate.o
+d/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build/Objects-normal/i386/MainViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphonesimulator.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Link /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/Routing Plus61"Ld build/emulator/Routing\ Plus.app/Routing\ Plus normal i3863cdc6a3e82ecb841^45bd7c3e82ecb841^---0#0#1#--2211"Ld build/emulator/Routing\ Plus.app/Routing\ Plus normal i386    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export IPHONEOS_DEPLOYMENT_TARGET=5.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator -F/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator -filelist /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Objects-normal/i386/Routing\ Plus.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework AssetsLibrary /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -Xlinker -dependency_info -Xlinker /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Objects-normal/i386/Routing\ Plus_dependency_info.dat -o /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app/Routing\ Plus36"C4FB0BD0-37DA-4363-9CD8-FB2A05F6686E-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CPhaseScriptExecution Copy\ www\ directory /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Script-304B58A110DAC018002A0835.sh
+s418153021.993877
+e418153022.292309
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.271s
+ouser	0m0.104s
+osys	0m0.156s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'144"PhaseScriptExecution Copy\ www\ directory build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Script-304B58A110DAC018002A0835.sh287fff3d82ecb841^abce4a3e82ecb841^-42"real	0m0.271suser	0m0.104ssys	0m0.156s3(21%IDEActivityLogMessage2@14"real	0m0.271s-418153022#1#14#-0#-----2@14"user	0m0.104s-418153022#15#14#-0#-----2@13"sys	0m0.156s-418153022#29#13#-0#-----0#0#1#--23951"PhaseScriptExecution Copy\ www\ directory build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Script-304B58A110DAC018002A0835.sh    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export ACTION=build    export AD_HOC_CODE_SIGNING_ALLOWED=NO    export ALTERNATE_GROUP=staff    export ALTERNATE_MODE=u+w,go-w,a+rX    export ALTERNATE_OWNER=hang    export ALWAYS_SEARCH_USER_PATHS=NO    export ALWAYS_USE_SEPARATE_HEADERMAPS=YES    export APPLE_INTERNAL_DEVELOPER_DIR=/AppleInternal/Developer    export APPLE_INTERNAL_DIR=/AppleInternal    export APPLE_INTERNAL_DOCUMENTATION_DIR=/AppleInternal/Documentation    export APPLE_INTERNAL_LIBRARY_DIR=/AppleInternal/Library    export APPLE_INTERNAL_TOOLS=/AppleInternal/Developer/Tools    export APPLY_RULES_IN_COPY_FILES=NO    export ARCHS=i386    export ARCHS_STANDARD="i386 x86_64"    export ARCHS_STANDARD_32_64_BIT="i386 x86_64"    export ARCHS_STANDARD_32_BIT=i386    export ARCHS_STANDARD_64_BIT=x86_64    export ARCHS_STANDARD_INCLUDING_64_BIT="i386 x86_64"    export AVAILABLE_PLATFORMS="iphonesimulator macosx iphoneos"    export BUILD_COMPONENTS="headers build"    export BUILD_DIR=/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build    export BUILD_ROOT=/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build    export BUILD_STYLE=    export BUILD_VARIANTS=normal    export BUILT_PRODUCTS_DIR=/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator    export CACHE_ROOT=/var/folders/b1/ml197xz50v502lwh2vyjkm3c0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode    export CCHROOT=/var/folders/b1/ml197xz50v502lwh2vyjkm3c0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode    export CHMOD=/bin/chmod    export CHOWN=/usr/sbin/chown    export CLANG_ENABLE_OBJC_ARC=YES    export CLANG_WARN_BOOL_CONVERSION=YES    export CLANG_WARN_CONSTANT_CONVERSION=YES    export CLANG_WARN_EMPTY_BODY=YES    export CLANG_WARN_ENUM_CONVERSION=YES    export CLANG_WARN_INT_CONVERSION=YES    export CLANG_WARN__DUPLICATE_METHOD_MATCH=YES    export CLASS_FILE_DIR="/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build/JavaClasses"    export CLEAN_PRECOMPS=YES    export CLONE_HEADERS=NO    export CODESIGNING_FOLDER_PATH="/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app"    export CODE_SIGNING_ALLOWED=NO    export CODE_SIGN_CONTEXT_CLASS=XCiPhoneSimulatorCodeSignContext    export COLOR_DIAGNOSTICS=NO    export COMBINE_HIDPI_IMAGES=NO    export COMMAND_MODE=legacy    export COMPOSITE_SDK_DIRS=/var/folders/b1/ml197xz50v502lwh2vyjkm3c0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/CompositeSDKs    export COMPRESS_PNG_FILES=YES    export CONFIGURATION=Debug    export CONFIGURATION_BUILD_DIR=/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator    export CONFIGURATION_TEMP_DIR="/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator"    export CONTENTS_FOLDER_PATH="Routing Plus.app"    export COPYING_PRESERVES_HFS_DATA=NO    export COPY_PHASE_STRIP=NO    export COPY_RESOURCES_FROM_STATIC_FRAMEWORKS=YES    export CP=/bin/cp    export CREATE_INFOPLIST_SECTION_IN_BINARY=NO    export CURRENT_ARCH=i386    export CURRENT_VARIANT=normal    export DEAD_CODE_STRIPPING=NO    export DEBUGGING_SYMBOLS=YES    export DEBUG_INFORMATION_FORMAT=dwarf-with-dsym    export DEFAULT_COMPILER=com.apple.compilers.llvm.clang.1_0    export DEFAULT_KEXT_INSTALL_PATH=/System/Library/Extensions    export DEPLOYMENT_LOCATION=NO    export DEPLOYMENT_POSTPROCESSING=NO    export DERIVED_FILES_DIR="/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build/DerivedSources"    export DERIVED_FILE_DIR="/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build/DerivedSources"    export DERIVED_SOURCES_DIR="/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build/DerivedSources"    export DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Applications    export DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin    export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer    export DEVELOPER_FRAMEWORKS_DIR=/Applications/Xcode.app/Contents/Developer/Library/Frameworks    export DEVELOPER_FRAMEWORKS_DIR_QUOTED=/Applications/Xcode.app/Contents/Developer/Library/Frameworks    export DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/Developer/Library    export DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    export DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Tools    export DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr    export DEVELOPMENT_LANGUAGE=English    export DOCUMENTATION_FOLDER_PATH="Routing Plus.app/English.lproj/Documentation"    export DO_HEADER_SCANNING_IN_JAM=NO    export DSTROOT="/tmp/Routing Plus.dst"    export DT_TOOLCHAIN_DIR=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    export DWARF_DSYM_FILE_NAME="Routing Plus.app.dSYM"    export DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT=NO    export DWARF_DSYM_FOLDER_PATH=/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator    export EFFECTIVE_PLATFORM_NAME=-iphonesimulator    export ENABLE_HEADER_DEPENDENCIES=YES    export EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS=".DS_Store .svn .git .hg CVS"    export EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES="*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    export EXECUTABLES_FOLDER_PATH="Routing Plus.app/Executables"    export EXECUTABLE_FOLDER_PATH="Routing Plus.app"    export EXECUTABLE_NAME="Routing Plus"    export EXECUTABLE_PATH="Routing Plus.app/Routing Plus"    export FILE_LIST="/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build/Objects/LinkFileList"    export FIXED_FILES_DIR="/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build/FixedFiles"    export FRAMEWORKS_FOLDER_PATH="Routing Plus.app/Frameworks"    export FRAMEWORK_FLAG_PREFIX=-framework    export FRAMEWORK_SEARCH_PATHS="/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator "    export FRAMEWORK_VERSION=A    export FULL_PRODUCT_NAME="Routing Plus.app"    export GCC3_VERSION=3.3    export GCC_C_LANGUAGE_STANDARD=c99    export GCC_DYNAMIC_NO_PIC=NO    export GCC_INLINES_ARE_PRIVATE_EXTERN=YES    export GCC_OBJC_LEGACY_DISPATCH=YES    export GCC_OPTIMIZATION_LEVEL=0    export GCC_PFE_FILE_C_DIALECTS="c objective-c c++ objective-c++"    export GCC_PRECOMPILE_PREFIX_HEADER=YES    export GCC_PREFIX_HEADER="Routing Plus/Routing Plus-Prefix.pch"    export GCC_SYMBOLS_PRIVATE_EXTERN=YES    export GCC_THUMB_SUPPORT=NO    export GCC_TREAT_WARNINGS_AS_ERRORS=NO    export GCC_VERSION=com.apple.compilers.llvm.clang.1_0    export GCC_VERSION_IDENTIFIER=com_apple_compilers_llvm_clang_1_0    export GCC_WARN_ABOUT_RETURN_TYPE=YES    export GCC_WARN_UNDECLARED_SELECTOR=YES    export GCC_WARN_UNINITIALIZED_AUTOS=YES    export GCC_WARN_UNUSED_FUNCTION=YES    export GCC_WARN_UNUSED_VARIABLE=YES    export GENERATE_MASTER_OBJECT_FILE=NO    export GENERATE_PKGINFO_FILE=YES    export GENERATE_PROFILING_CODE=NO    export GID=20    export GROUP=staff    export HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT=YES    export HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES=YES    export HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS=YES    export HEADERMAP_INCLUDES_PROJECT_HEADERS=YES    export HEADER_SEARCH_PATHS="/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/include \"/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/usr/local/lib/include\" \"/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/UninstalledProducts/include\" \"/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator\""    export ICONV=/usr/bin/iconv    export INFOPLIST_EXPAND_BUILD_SETTINGS=YES    export INFOPLIST_FILE="Routing Plus/Routing Plus-Info.plist"    export INFOPLIST_OUTPUT_FORMAT=binary    export INFOPLIST_PATH="Routing Plus.app/Info.plist"    export INFOPLIST_PREPROCESS=NO    export INFOSTRINGS_PATH="Routing Plus.app/English.lproj/InfoPlist.strings"    export INSTALL_DIR="/tmp/Routing Plus.dst/Applications"    export INSTALL_GROUP=staff    export INSTALL_MODE_FLAG=u+w,go-w,a+rX    export INSTALL_OWNER=hang    export INSTALL_PATH=/Applications    export INSTALL_ROOT="/tmp/Routing Plus.dst"    export IPHONEOS_DEPLOYMENT_TARGET=5.0    export JAVAC_DEFAULT_FLAGS="-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    export JAVA_APP_STUB=/System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    export JAVA_ARCHIVE_CLASSES=YES    export JAVA_ARCHIVE_TYPE=JAR    export JAVA_COMPILER=/usr/bin/javac    export JAVA_FOLDER_PATH="Routing Plus.app/Java"    export JAVA_FRAMEWORK_RESOURCES_DIRS=Resources    export JAVA_JAR_FLAGS=cv    export JAVA_SOURCE_SUBDIR=.    export JAVA_USE_DEPENDENCIES=YES    export JAVA_ZIP_FLAGS=-urg    export JIKES_DEFAULT_FLAGS="+E +OLDCSO"    export KEEP_PRIVATE_EXTERNS=NO    export LD_DEPENDENCY_INFO_FILE="/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build/Objects-normal/i386/Routing Plus_dependency_info.dat"    export LD_GENERATE_MAP_FILE=NO    export LD_MAP_FILE_PATH="/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build/Routing Plus-LinkMap-normal-i386.txt"    export LD_NO_PIE=NO    export LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER=YES    export LEGACY_DEVELOPER_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    export LEX=lex    export LIBRARY_FLAG_NOSPACE=YES    export LIBRARY_FLAG_PREFIX=-l    export LIBRARY_KEXT_INSTALL_PATH=/Library/Extensions    export LIBRARY_SEARCH_PATHS="/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator "    export LINKER_DISPLAYS_MANGLED_NAMES=NO    export LINK_FILE_LIST_normal_i386="/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build/Objects-normal/i386/Routing Plus.LinkFileList"    export LINK_WITH_STANDARD_LIBRARIES=YES    export LOCALIZED_RESOURCES_FOLDER_PATH="Routing Plus.app/English.lproj"    export LOCAL_ADMIN_APPS_DIR=/Applications/Utilities    export LOCAL_APPS_DIR=/Applications    export LOCAL_DEVELOPER_DIR=/Library/Developer    export LOCAL_LIBRARY_DIR=/Library    export MACH_O_TYPE=mh_execute    export MACOSX_DEPLOYMENT_TARGET=10.6    export MAC_OS_X_PRODUCT_BUILD_VERSION=13C64    export MAC_OS_X_VERSION_ACTUAL=1092    export MAC_OS_X_VERSION_MAJOR=1090    export MAC_OS_X_VERSION_MINOR=0902    export NATIVE_ARCH=i386    export NATIVE_ARCH_32_BIT=i386    export NATIVE_ARCH_64_BIT=x86_64    export NATIVE_ARCH_ACTUAL=x86_64    export NO_COMMON=YES    export OBJC_ABI_VERSION=2    export OBJECT_FILE_DIR="/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build/Objects"    export OBJECT_FILE_DIR_normal="/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build/Objects-normal"    export OBJROOT=/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build    export ONLY_ACTIVE_ARCH=YES    export OPTIMIZATION_LEVEL=0    export OS=MACOS    export OSAC=/usr/bin/osacompile    export OTHER_LDFLAGS="-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load \"/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/libCordova.a\" -ObjC"    export PACKAGE_TYPE=com.apple.package-type.wrapper.application    export PASCAL_STRINGS=YES    export PATH="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    export PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES="/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    export PBDEVELOPMENTPLIST_PATH="Routing Plus.app/pbdevelopment.plist"    export PFE_FILE_C_DIALECTS=objective-c    export PKGINFO_FILE_PATH="/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build/PkgInfo"    export PKGINFO_PATH="Routing Plus.app/PkgInfo"    export PLATFORM_DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    export PLATFORM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    export PLATFORM_DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    export PLATFORM_DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    export PLATFORM_DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    export PLATFORM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    export PLATFORM_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    export PLATFORM_NAME=iphonesimulator    export PLATFORM_PREFERRED_ARCH=i386    export PLATFORM_PRODUCT_BUILD_VERSION=11D167    export PLATFORM_VERSION_AVAILABILITY_H_FORMAT=70100    export PLIST_FILE_OUTPUT_FORMAT=binary    export PLUGINS_FOLDER_PATH="Routing Plus.app/PlugIns"    export PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR=YES    export PRECOMP_DESTINATION_DIR="/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build/PrefixHeaders"    export PRESERVE_DEAD_CODE_INITS_AND_TERMS=NO    export PRIVATE_HEADERS_FOLDER_PATH="Routing Plus.app/PrivateHeaders"    export PRODUCT_NAME="Routing Plus"    export PRODUCT_SETTINGS_PATH="/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Routing Plus-Info.plist"    export PRODUCT_TYPE=com.apple.product-type.application    export PROFILING_CODE=NO    export PROJECT="Routing Plus"    export PROJECT_DERIVED_FILE_DIR="/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/DerivedSources"    export PROJECT_DIR=/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export PROJECT_FILE_PATH="/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus.xcodeproj"    export PROJECT_NAME="Routing Plus"    export PROJECT_TEMP_DIR="/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build"    export PROJECT_TEMP_ROOT=/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build    export PUBLIC_HEADERS_FOLDER_PATH="Routing Plus.app/Headers"    export RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS=YES    export REMOVE_CVS_FROM_RESOURCES=YES    export REMOVE_GIT_FROM_RESOURCES=YES    export REMOVE_HG_FROM_RESOURCES=YES    export REMOVE_SVN_FROM_RESOURCES=YES    export REZ_COLLECTOR_DIR="/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build/ResourceManagerResources"    export REZ_OBJECTS_DIR="/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build/ResourceManagerResources/Objects"    export REZ_SEARCH_PATHS="/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator "    export SCAN_ALL_SOURCE_FILES_FOR_INCLUDES=NO    export SCRIPTS_FOLDER_PATH="Routing Plus.app/Scripts"    export SCRIPT_INPUT_FILE_COUNT=0    export SCRIPT_OUTPUT_FILE_COUNT=0    export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk    export SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk    export SDK_NAME=iphonesimulator7.1    export SDK_PRODUCT_BUILD_VERSION=11D167    export SED=/usr/bin/sed    export SEPARATE_STRIP=NO    export SEPARATE_SYMBOL_EDIT=NO    export SET_DIR_MODE_OWNER_GROUP=YES    export SET_FILE_MODE_OWNER_GROUP=NO    export SHALLOW_BUNDLE=YES    export SHARED_DERIVED_FILE_DIR=/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/DerivedSources    export SHARED_FRAMEWORKS_FOLDER_PATH="Routing Plus.app/SharedFrameworks"    export SHARED_PRECOMPS_DIR=/var/folders/b1/ml197xz50v502lwh2vyjkm3c0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders    export SHARED_SUPPORT_FOLDER_PATH="Routing Plus.app/SharedSupport"    export SKIP_INSTALL=NO    export SOURCE_ROOT=/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export SRCROOT=/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export STRINGS_FILE_OUTPUT_ENCODING=binary    export STRIP_INSTALLED_PRODUCT=YES    export STRIP_STYLE=all    export SUPPORTED_DEVICE_FAMILIES="1 2"    export SUPPORTED_PLATFORMS="iphonesimulator iphoneos"    export SYMROOT=/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build    export SYSTEM_ADMIN_APPS_DIR=/Applications/Utilities    export SYSTEM_APPS_DIR=/Applications    export SYSTEM_CORE_SERVICES_DIR=/System/Library/CoreServices    export SYSTEM_DEMOS_DIR=/Applications/Extras    export SYSTEM_DEVELOPER_APPS_DIR=/Applications/Xcode.app/Contents/Developer/Applications    export SYSTEM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin    export SYSTEM_DEVELOPER_DEMOS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    export SYSTEM_DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer    export SYSTEM_DEVELOPER_DOC_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    export SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    export SYSTEM_DEVELOPER_JAVA_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    export SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    export SYSTEM_DEVELOPER_RELEASENOTES_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    export SYSTEM_DEVELOPER_TOOLS=/Applications/Xcode.app/Contents/Developer/Tools    export SYSTEM_DEVELOPER_TOOLS_DOC_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    export SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    export SYSTEM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr    export SYSTEM_DEVELOPER_UTILITIES_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Utilities    export SYSTEM_DOCUMENTATION_DIR=/Library/Documentation    export SYSTEM_KEXT_INSTALL_PATH=/System/Library/Extensions    export SYSTEM_LIBRARY_DIR=/System/Library    export TARGETED_DEVICE_FAMILY=1,2    export TARGETNAME="Routing Plus"    export TARGET_BUILD_DIR=/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator    export TARGET_NAME="Routing Plus"    export TARGET_TEMP_DIR="/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build"    export TEMP_DIR="/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build"    export TEMP_FILES_DIR="/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build"    export TEMP_FILE_DIR="/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing Plus.build/Debug-iphonesimulator/Routing Plus.build"    export TEMP_ROOT=/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build    export TOOLCHAINS=com.apple.dt.toolchain.XcodeDefault    export UID=501    export UNLOCALIZED_RESOURCES_FOLDER_PATH="Routing Plus.app"    export UNSTRIPPED_PRODUCT=NO    export USER=hang    export USER_APPS_DIR=/Users/hang/Applications    export USER_LIBRARY_DIR=/Users/hang/Library    export USE_DYNAMIC_NO_PIC=YES    export USE_HEADERMAP=YES    export USE_HEADER_SYMLINKS=NO    export VALIDATE_PRODUCT=NO    export VALID_ARCHS=i386    export VERBOSE_PBXCP=NO    export VERSIONPLIST_PATH="Routing Plus.app/version.plist"    export VERSION_INFO_BUILDER=hang    export VERSION_INFO_FILE="Routing Plus_vers.c"    export VERSION_INFO_STRING="\"@(#)PROGRAM:Routing Plus  PROJECT:Routing Plus-\""    export WRAPPER_EXTENSION=app    export WRAPPER_NAME="Routing Plus.app"    export WRAPPER_SUFFIX=.app    export XCODE_APP_SUPPORT_DIR=/Applications/Xcode.app/Contents/Developer/Library/Xcode    export XCODE_PRODUCT_BUILD_VERSION=5B130a    export XCODE_VERSION_ACTUAL=0510    export XCODE_VERSION_MAJOR=0500    export XCODE_VERSION_MINOR=0510    export XPCSERVICES_FOLDER_PATH="Routing Plus.app/XPCServices"    export YACC=yacc    export arch=i386    export variant=normal    /bin/sh -c \"/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/Routing\ Plus.build/Debug-iphonesimulator/Routing\ Plus.build/Script-304B58A110DAC018002A0835.sh\"36"E184ADBA-C9C7-4B11-9A5D-2A7EF23CEB0B-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CProcessInfoPlistFile /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app/Info.plist /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Routing\ Plus-Info.plist
+s418153021.990369
+e418153021.992219
+r1
+xProcessInfoPlistFile
+x/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app/Info.plist
+x/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Routing Plus-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Process /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing Plus/Routing Plus-Info.plist103"ProcessInfoPlistFile build/emulator/Routing\ Plus.app/Info.plist Routing\ Plus/Routing\ Plus-Info.plist1b9ffd3d82ecb841^eb19fe3d82ecb841^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing%20Plus/Routing%20Plus-Info.plist0000000000000000^1112"ProcessInfoPlistFile build/emulator/Routing\ Plus.app/Info.plist Routing\ Plus/Routing\ Plus-Info.plist    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    builtin-infoPlistUtility /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/Routing\ Plus/Routing\ Plus-Info.plist -genpkginfo /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app/Info.plist36"51B25EC4-4FC3-49A1-A7DA-E0A03EB08F42-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+
+CProcessPCH /var/folders/b1/ml197xz50v502lwh2vyjkm3c0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Routing\ Plus-Prefix-bzixhhkooasmureffwcarriecngh/Routing\ Plus-Prefix.pch.pch Routing\ Plus/Routing\ Plus-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CTouch /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app
+s418153022.531868
+e418153022.536638
+r1
+xTouch
+x/Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Touch /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing Plus.app38"Touch build/emulator/Routing\ Plus.app8849883e82ecb841^4164893e82ecb841^---0#0#1#--722"Touch build/emulator/Routing\ Plus.app    cd /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353/bin:/Users/hang/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/hang/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/hang/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Applications/android-sdk-macosx/platform-tools:/Applications/android-sdk-macosx/tools"    /usr/bin/touch -c /Users/hang/Dropbox/Spring/GRP/gp13-ajp/code/routingplus-app/platforms/ios/build/emulator/Routing\ Plus.app36"06B23BEF-32CF-4A15-A4A6-618C551A903A-
+bEBA936A9-52C8-4F45-A923-E930BE8E2C78
+

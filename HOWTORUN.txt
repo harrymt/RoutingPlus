@@ -1,0 +1,19 @@
+HOWTORUN.txt
+
+Install the latest JRE
+
+Run the program using
+
+sh graphhopper.sh web nottinghamshire.osm.pbf
+
+Start a local server then go to the correct localhost:port/routingplus-desktop
+
+And navigate to routingplus-desktop
+
+You should be able to click on the map and a route appears.
+
+
+Links: 
+https://github.com/graphhopper/graphhopper
+http://graphhopper.com/
+https://github.com/graphhopper/graphhopper/blob/master/docs/web/quickstart.md
