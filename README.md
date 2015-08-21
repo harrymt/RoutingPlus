@@ -4,9 +4,9 @@ RoutingPlus
 
 Routing+ automatically creates a perfect route based on your personal preferences for you. Just specify the type of roads you want to avoid or prefer and you're all set.
   
-  [insert image]
+![Routing plus web app](/screenshot.png?raw=true "Routing Plus web app")
   
-### See project here https://code.cs.nott.ac.uk/p/gp13-ajp/
+##### See project here https://code.cs.nott.ac.uk/p/gp13-ajp/
   
   
 ### All the toggles you need in one place.
